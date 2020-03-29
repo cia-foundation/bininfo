@@ -123,7 +123,7 @@ char const* etype_to_string(int64_t etype) {
   }
   else {
     static char buffer[20];
-    snprintf(buffer, sizeof(buffer), "IET_#%d", etype);
+    snprintf(buffer, sizeof(buffer), "IET_#%lld", etype);
     return buffer;
   }
 }
@@ -136,7 +136,7 @@ void LoadPass1(U8 *src,U8 *module_base,I64 ld_flags)
   printf("Patch table:\n");
 
   while (etype=*src++) {
-    uintptr_t i = 0;  // todo: not uint32?
+    uint32_t i = 0;
     memcpy(&i, src, 4);
     src += 4;
     st_ptr=src;
@@ -180,7 +180,7 @@ void LoadPass1(U8 *src,U8 *module_base,I64 ld_flags)
         break;
 
       case IET_MAIN:
-        printf("    main function @ %8Xh\n");
+        printf("    main function @ %8Xh\n", i);
         break;
 
       default:
@@ -245,7 +245,7 @@ int main(int argc, char* argv[]) {
   size_t r = fread(binfile, 1, bfh.file_size, f);
 
   if (r != bfh.file_size) {
-    fprintf(stderr, "bininfo warning: invalid file_size (expected %d, got %d bytes)\n", bfh.file_size, r);
+    fprintf(stderr, "bininfo warning: invalid file_size (expected %lld, got %zu bytes)\n", bfh.file_size, r);
   }
 
   char dummy;

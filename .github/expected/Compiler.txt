@@ -707,7 +707,7 @@ Patch table:
   entry IET_REL32_EXPORT "PrsNoWarn"
     export PrsNoWarn                                @    172FFh
   entry IET_MAIN ""
-    main function @      A22h
+    main function @    15267h
   entry IET_REL_I32 "_MALLOC"
     at    18498h    173B8h    173ACh    17142h    16F0Dh    16E41h    16C08h    16127h
           160F7h    14B5Dh    14780h    13C6Ch    13C2Ch    137AFh    1358Ah    12E1Eh
