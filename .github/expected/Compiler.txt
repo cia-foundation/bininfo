@@ -1,0 +1,983 @@
+bininfo Compiler.BIN
+
+BIN header:
+    jmp                 [EB 1E]h
+    alignment           1 byte(s)
+    org                 7FFFFFFFFFFFFFFF (9223372036854775807)
+    patch_table_offset  000000000002BBBF (179135)
+    file_size           000000000002F500 (193792)
+
+Patch table:
+  entry IET_ABS_ADDR ""
+    at    2B701h    2B6FBh    2B66Eh    2B637h    2B48Ah    2B475h    29251h    2924Bh
+          2905Ah    283B9h    283B3h    271F7h    271F1h    235FAh    235F4h    23516h
+          23510h    21DA7h    21DA1h    218DAh    218D4h    20F3Eh    20F38h    206F1h
+          2067Fh    200A4h    2008Bh    20063h    2004Ah    20018h    1FFFFh    1FFD4h
+          1FFBBh    1FF7Ah    1FF61h    1FD76h    1FD2Dh    1FCC1h    1FCBBh    1FA7Fh
+          1FA79h    1F491h    1F48Bh    1F312h    1F30Ch    1EFA4h    1EF9Eh    1ECB6h
+          1ECB0h    1EBA2h    1EB9Ch    1EADFh    1EAD9h    1E9BFh    1E9B9h    1E8C1h
+          1E8BBh    1E849h    1E843h    1E5CEh    1E5C8h    1E0BCh    1E0A8h    1E025h
+          1E017h    1DF62h    1DDDAh    1DC6Eh    1DBC8h    1DA0Eh    1DA00h    1D79Eh
+          1D787h    1D51Eh    1D510h    1D4C9h    1D4A3h    1D48Bh    1D43Eh    1C9C5h
+          1C9BFh    1C979h    1C973h    1C956h    1C93Dh    1C925h    1C915h    1C8D8h
+          1C03Ah    1C02Ch    1BFECh    1BFA8h    1BF8Bh    1BF7Dh    1BEC4h    1BE4Ah
+          1BE06h    1BDD4h    1BDC6h    1BCB6h    1BC80h    1BB5Eh    1BAE9h    1BAD3h
+          1B0ABh    1B0A5h    1B059h    1AF63h    1AF5Dh    1AF3Fh    1AF25h    1AF15h
+          1AEA4h    1ADB3h    1AA33h    1AA25h    1A998h    1A935h    1A928h    1A912h
+          1A00Ah    18E48h    18E42h    18D9Ch    18D96h    18CA9h    18C27h    18957h
+          185C3h    185BDh    18593h    18529h    18523h    18506h    181C0h    1813Bh
+          18124h    180EFh    18088h    17F66h    17F02h    17ECDh    17E67h    17DCAh
+          17DABh    17CF4h    17CA2h    17C49h    17BF7h    17BBAh    17B61h    17B2Fh
+          17AE4h    17A9Eh    17950h    1794Ah    17767h    175B5h    1759Eh    17586h
+          1750Fh    1748Bh    173C2h    17355h    17327h    171A1h    17117h    170ABh
+          17086h    17050h    16FB9h    16F5Fh    16F4Fh    16CBCh    16CB6h    16BF9h
+          16BD6h    16BD0h    16B7Fh    16B65h    16B43h    16A51h    1695Eh    16912h
+          16897h    16819h    167E1h    167A6h    1678Ch    166B9h    16665h    16578h
+          1653Dh    163FCh    1639Eh    15FF1h    15F45h    15E83h    15E1Ch    15E16h
+          15D31h    15D1Eh    15C9Eh    15C56h    15C50h    15A86h    15A3Bh    159FDh
+          1585Bh    15703h    156D6h    155F0h    15412h    153F8h    1529Dh    1522Fh
+          15195h    1517Eh    150B2h    150A0h    14EF2h    14EE0h    14DD6h    14DD1h
+          14C72h    14BF7h    14BE3h    147DCh    147C1h    147A9h    14634h    1462Eh
+          145DBh    1459Bh    14558h    14532h    1452Ch    144DDh    143D4h    143CEh
+          141F5h    141B3h    1416Eh    14148h    14142h    140E9h    14090h    13FEFh
+          13FE9h    13F0Eh    13F08h    13A1Ch    13A17h    13508h    134C0h    134A4h
+          13474h    133A7h    13386h    13365h    13345h    132DEh    132BDh    1329Dh
+          1326Ah    13203h    131E1h    12F1Dh    12E9Dh    12E97h    12982h    12961h
+          1295Bh    12880h    12854h    1284Eh    127E1h    12793h    1271Bh    126F9h
+          126F3h    126ADh    1265Fh    12537h    124ECh    123A5h    1232Eh    12314h
+          122FCh    122E0h    12275h    1224Ah    121CBh    1218Ah    120D3h    12075h
+          12038h    1170Dh    116A7h    1118Ch    110D9h    11020h    10FE5h    10F98h
+          10E7Fh    10D6Eh    10D3Ch    10D16h    10C90h    10C8Ah    108A8h    1088Fh
+          107EDh    10795h    10752h    1074Ch    1064Dh    104FDh    104C2h    104BCh
+          10407h    1038Ch    10346h    101CEh    10157h     FE2Ch     FD2Ah     FD24h
+           F9A2h     F932h     F8C5h     F69Eh     F674h     F536h     F524h     F4F6h
+           F4E4h     F3F2h     F3C0h     F39Ah     F363h     F26Eh     F233h     F1CDh
+           F1ABh     F14Dh     F0D1h     F080h     F01Ah     F015h     EE2Bh     EE07h
+           ED6Bh     ED3Bh     ED04h     EC02h     EBFCh     EB6Eh     E92Bh     E925h
+           E733h     E72Dh     E699h     E668h     E606h     E206h     E200h     E13Bh
+           E135h     DE52h     DE4Ch     DD7Bh     DD75h     D4F0h     D47Dh     D413h
+           D3DCh     D37Ch     D36Ch     D356h     D2DFh     D29Dh     D275h     D1C7h
+           D142h     D085h     D056h     D03Dh     D004h     CFDBh     CFC8h     CFAAh
+           CF88h     CF22h     CF01h     CEFBh     CE72h     CDE0h     CD8Eh     CD83h
+           CCE8h     CC99h     CC5Ah     CC39h     CB8Dh     CA56h     C879h     C06Ch
+           BC38h     B8F5h     B788h     B688h     B599h     B478h     B472h     B285h
+           B1F4h     B1EEh     B148h     B0C1h     AF61h     AF31h     AF2Bh     AE2Dh
+           AE27h     ACD1h     AC6Eh     A989h     A83Ah     A812h     A64Eh     A4D6h
+           A488h     A32Dh     A2E5h     A204h     A1F2h     A0A6h     9F5Eh     9E16h
+           9BA5h     9B3Bh     9B0Ah     9AADh     9A59h     99CEh     9912h     98A7h
+           983Ah     9776h     9734h     9701h     96FBh     96E2h     96C7h     96B0h
+           96A3h     9668h     965Dh     945Fh     9446h     93C5h     93BBh     93B5h
+           923Ah     922Ch     9045h     9005h     8F51h     8F3Dh     8EE6h     8ED8h
+           8EADh     8EA7h     885Eh     8849h     8813h     8803h     8783h     876Eh
+           8738h     8728h     820Ch     81F4h     81DCh     81B2h     817Dh     8153h
+           8138h     8128h     8110h     80AEh     808Ah     8065h     803Eh     802Ch
+           8026h     7FFEh     7FD4h     7FB9h     7FA9h     7F91h     7F1Ch     7F00h
+           7EC5h     7E7Fh     7E5Bh     7E36h     7E0Fh     7DF2h     7DD1h     7DB9h
+           7DB3h     7D17h     7CD1h     7CA1h     7C73h     7B5Dh     7ACFh     7A0Ah
+           79DEh     783Ch     77C9h     7702h     76E4h     76A8h     768Ch     749Ch
+           7459h     7416h     73D3h     7390h     734Dh     731Eh     7318h     72D9h
+           7284h     7267h     724Ah     71DCh     71BAh     7087h     7069h     6B99h
+           6B93h     67B9h     679Fh     6711h     6588h     639Eh     6335h     632Fh
+           5C24h     5BA3h     5714h     570Eh     525Ch     523Eh     5238h     51B6h
+           5064h     505Eh     4AD5h     4A6Bh     4A65h     479Ah     4794h     46A1h
+           4633h     3EEAh     3ECAh     3EA6h     3D8Ah     3CEFh     3C3Fh     3C0Ah
+           3BC6h     3B36h     3B30h     3AF7h     3AF1h     3A5Ah     3258h     31D4h
+           31C3h     31B2h     31A1h     2D8Bh     2D6Fh     2D53h     2D2Fh     2D18h
+           2D01h     2CEAh     2CD3h     2CBCh     2CA5h     2C8Eh     2C77h     2C61h
+           2C4Bh     2C35h     2C1Fh     2C09h     2BF3h     2BDDh     2BC7h     2BA7h
+           2B8Bh     2B40h     2B1Ch     2B0Dh     2AEAh     2AC3h     2AA7h     2985h
+           2973h     2961h     294Fh     2945h     293Fh     291Fh     2907h     28F9h
+           28E5h     28C7h     28A5h     288Ch     287Ah     2867h     2859h     2846h
+           282Dh     2824h     281Eh     27F2h     27E5h     27CBh     27BBh     27AEh
+           27A8h     278Eh     272Dh     271Bh     26D3h     267Fh     2627h     25D9h
+           256Dh     253Bh     2508h     2498h     247Dh     2460h     243Bh     23C6h
+           237Fh     224Fh     223Fh     220Ch     21F3h     21D3h     21B0h     218Dh
+           19AFh     19AAh     19A0h     199Bh     1991h     198Ch     1982h     197Dh
+           1973h     196Eh     1964h     195Fh     1955h     1950h     1946h     1941h
+           1937h     1932h     1928h     1923h     1919h     1914h     190Ah     1905h
+           18FBh     18F6h     18ECh     18E7h     1318h     1308h     12F8h     12E8h
+           12D8h     12C8h     12B8h     12A8h     1298h     1288h     1278h     1268h
+           1258h     1248h     1238h     1228h     1218h     1208h     11F8h     11E8h
+           11D8h     11C8h     11B8h     11A8h     1198h     1188h     1178h     1168h
+           1158h     1148h     1138h     1128h     1118h     1108h     10F8h     10E8h
+           10D8h     10C8h     10B8h     10A8h     1098h     1088h     1078h     1068h
+           1058h     1048h     1038h     1028h     1018h     1008h      FF8h      FE8h
+            FD8h      FC8h      FB8h      FA8h      F98h      F88h      F78h      F68h
+            F58h      F48h      F38h      F28h      F18h      F08h      EF8h      EE8h
+            ED8h      EC8h      EB8h      EA8h      E98h      E88h      E78h      E68h
+            E58h      E48h      E38h      E28h      E18h      E08h      DF8h      DE8h
+            DD8h      DC8h      DB8h      DA8h      D98h      D88h      D78h      D68h
+            D58h      D48h      D38h      D28h      D18h      D08h      CF8h      CE8h
+            CD8h      CC8h      CB8h      CA8h      C98h      C88h      C78h      C68h
+            C58h      C48h      C38h      C28h      C18h      C08h      BF8h      BE8h
+            BD8h      BC8h      BB8h      BA8h      B98h      B88h      B78h      B68h
+            B58h      B48h      B38h      B28h      B18h      B08h      AF8h      AE8h
+            AD8h      AC8h      AB8h      AA8h      A98h      A88h      A78h      A68h
+            A58h      A48h      A38h      A28h      A18h      A08h      9F8h      9E8h
+            9D8h      9C8h      9B8h      9A8h      998h      988h      978h      968h
+            958h      948h      938h      928h      918h      908h      8F8h      8E8h
+            8D8h      8C8h      8B8h      8A8h      898h      888h      878h      868h
+            858h      848h      838h      828h      818h      808h      7F8h      7E8h
+            7D8h      7C8h      7B8h      7A8h      798h      455h      451h      44Dh
+            449h      445h      441h      43Dh      439h      435h      431h      42Dh
+            429h      425h      421h      41Dh      419h      415h      411h      40Dh
+            409h      3C9h      3C5h      3C1h      3BDh      3B9h      3B5h      3B1h
+            3ADh      3A9h      3A5h      3A1h      39Dh      399h      395h      391h
+            38Dh      389h      385h      381h      37Dh      293h      28Fh      28Bh
+            287h      283h      27Fh      27Bh      277h      273h      26Fh      26Bh
+            267h      263h      25Fh      25Bh      257h      253h      24Fh      24Bh
+            247h      1CBh      1C7h      1C3h      1BFh      1BBh      1B7h      1B3h
+            1AFh      1ABh      1A7h      1A3h      19Fh      19Bh      197h      193h
+            18Fh      18Bh      187h      183h      17Fh       4Ch       48h       44h
+             40h       3Ch       38h       34h       30h       2Ch       28h       24h
+             20h       1Ch       18h       14h       10h        Ch        8h        4h
+              0h
+  entry IET_REL32_EXPORT "LexPutPos"
+    export LexPutPos                                @     2332h
+  entry IET_REL32_EXPORT "ICAssignPostIncDec"
+    export ICAssignPostIncDec                       @    26187h
+  entry IET_REL32_EXPORT "CmpSetFloatOpPushPop"
+    export CmpSetFloatOpPushPop                     @    1FE77h
+  entry IET_REL32_EXPORT "ICFCvt2"
+    export ICFCvt2                                  @    20287h
+  entry IET_REL32_EXPORT "CmpMinTypePointed"
+    export CmpMinTypePointed                        @     E5AEh
+  entry IET_REL32_EXPORT "CmpRawTypePointed"
+    export CmpRawTypePointed                        @     E57Eh
+  entry IET_REL32_EXPORT "OptFixupBinaryOp1"
+    export OptFixupBinaryOp1                        @     D966h
+  entry IET_REL32_EXPORT "OptFixupBinaryOp2"
+    export OptFixupBinaryOp2                        @     DC1Eh
+  entry IET_REL32_EXPORT "COCInit"
+    export COCInit                                  @     8B70h
+  entry IET_REL32_EXPORT "IsLexExpression2Bin"
+    export IsLexExpression2Bin                      @    1152Eh
+  entry IET_REL32_EXPORT "LexFilePop"
+    export LexFilePop                               @     3782h
+  entry IET_REL32_EXPORT "ExePutS"
+    export ExePutS                                  @    14CDFh
+  entry IET_REL32_EXPORT "PrsStaticInit"
+    export PrsStaticInit                            @    11EA6h
+  entry IET_REL32_EXPORT "LexPutLine"
+    export LexPutLine                               @     2292h
+  entry IET_REL32_EXPORT "PrsKeyWord"
+    export PrsKeyWord                               @     89B8h
+  entry IET_REL32_EXPORT "AsmLineLst"
+    export AsmLineLst                               @     A258h
+  entry IET_REL32_EXPORT "ICOpSizeRex"
+    export ICOpSizeRex                              @    1E19Fh
+  entry IET_REL32_EXPORT "ICU8"
+    export ICU8                                     @    1E13Fh
+  entry IET_REL32_EXPORT "AsmStoreNum"
+    export AsmStoreNum                              @     B4E0h
+  entry IET_REL32_EXPORT "OptPass012"
+    export OptPass012                               @    18457h
+  entry IET_REL32_EXPORT "MemberLstSize"
+    export MemberLstSize                            @     355Ah
+  entry IET_REL32_EXPORT "ICQueIns"
+    export ICQueIns                                 @    27D4Fh
+  entry IET_REL32_EXPORT "ICAndBranch"
+    export ICAndBranch                              @    26D8Fh
+  entry IET_REL32_EXPORT "U"
+    export U                                        @     8708h
+  entry IET_REL32_EXPORT "ICQueRem"
+    export ICQueRem                                 @    27F6Fh
+  entry IET_REL32_EXPORT "OptLead1"
+    export OptLead1                                 @     D8EEh
+  entry IET_REL32_EXPORT "CmpNoteFloatOp"
+    export CmpNoteFloatOp                           @    1FC57h
+  entry IET_REL32_EXPORT "AOTGlblsResolve"
+    export AOTGlblsResolve                          @     A718h
+  entry IET_REL32_EXPORT "ExePutS2"
+    export ExePutS2                                 @    14F77h
+  entry IET_REL32_EXPORT "HashEntrySize"
+    export HashEntrySize                            @     6308h
+  entry IET_REL32_EXPORT "COCPush"
+    export COCPush                                  @     8BB0h
+  entry IET_REL32_EXPORT "ICPushRegs"
+    export ICPushRegs                               @    1EC1Fh
+  entry IET_REL32_EXPORT "ICU32"
+    export ICU32                                    @    1E247h
+  entry IET_REL32_EXPORT "ICU24"
+    export ICU24                                    @    1E217h
+  entry IET_REL32_EXPORT "ICU16"
+    export ICU16                                    @    1E1E7h
+  entry IET_REL32_EXPORT "CmpFillTables"
+    export CmpFillTables                            @     1E2Ah
+  entry IET_REL32_EXPORT "AOTStoreCodeU32"
+    export AOTStoreCodeU32                          @     9E58h
+  entry IET_REL32_EXPORT "ICU64"
+    export ICU64                                    @    1E277h
+  entry IET_REL32_EXPORT "AOTStoreCodeU64"
+    export AOTStoreCodeU64                          @     9FA0h
+  entry IET_REL32_EXPORT "LexPopNoRestore"
+    export LexPopNoRestore                          @     2FFAh
+  entry IET_REL32_EXPORT "ExePrint"
+    export ExePrint                                 @    14E77h
+  entry IET_REL32_EXPORT "PrsVarLst"
+    export PrsVarLst                                @    125BEh
+  entry IET_REL32_EXPORT "PrsAsmDefine"
+    export PrsAsmDefine                             @     CAC6h
+  entry IET_REL32_EXPORT "PrsAddOp"
+    export PrsAddOp                                 @     E6F6h
+  entry IET_REL32_EXPORT "LexWarn"
+    export LexWarn                                  @     2402h
+  entry IET_REL32_EXPORT "COCAppend"
+    export COCAppend                                @     8C38h
+  entry IET_REL32_EXPORT "LexFilePush"
+    export LexFilePush                              @     3722h
+  entry IET_REL32_EXPORT "PrsUnaryModifier"
+    export PrsUnaryModifier                         @    10C2Eh
+  entry IET_REL32_EXPORT "OptFixupUnaryOp"
+    export OptFixupUnaryOp                          @     DC76h
+  entry IET_REL32_EXPORT "LexPush"
+    export LexPush                                  @     2F32h
+  entry IET_REL32_EXPORT "ICPopRegs"
+    export ICPopRegs                                @    1ED7Fh
+  entry IET_REL32_EXPORT "ICFOp"
+    export ICFOp                                    @    20907h
+  entry IET_REL32_EXPORT "LexExpressionF64"
+    export LexExpressionF64                         @    115B6h
+  entry IET_REL32_EXPORT "ICAdd"
+    export ICAdd                                    @     8AC8h
+  entry IET_REL32_EXPORT "CmpRawType"
+    export CmpRawType                               @     E556h
+  entry IET_REL32_EXPORT "ICFOpEqu"
+    export ICFOpEqu                                 @    214C7h
+  entry IET_REL32_EXPORT "LexExpressionI64"
+    export LexExpressionI64                         @    1155Eh
+  entry IET_REL32_EXPORT "ICQueInsRev"
+    export ICQueInsRev                              @    27E5Fh
+  entry IET_REL32_EXPORT "LexExpression"
+    export LexExpression                            @    1160Eh
+  entry IET_REL32_EXPORT "PrsExpression"
+    export PrsExpression                            @     EFA6h
+  entry IET_REL32_EXPORT "PrsClassNew"
+    export PrsClassNew                              @     89F8h
+  entry IET_REL32_EXPORT "LexInStr"
+    export LexInStr                                 @     4708h
+  entry IET_REL32_EXPORT "internal_types_table"
+    export internal_types_table                     @      6E0h
+  entry IET_REL32_EXPORT "OptPass3"
+    export OptPass3                                 @    1AC6Fh
+  entry IET_REL32_EXPORT "OptPass4"
+    export OptPass4                                 @    1C817h
+  entry IET_REL32_EXPORT "OptPass5"
+    export OptPass5                                 @    1D71Fh
+  entry IET_REL32_EXPORT "OptPass6"
+    export OptPass6                                 @    1DD6Fh
+  entry IET_REL32_EXPORT "Echo"
+    export Echo                                     @    13177h
+  entry IET_REL32_EXPORT "PrsGlblVarLst"
+    export PrsGlblVarLst                            @    15B4Fh
+  entry IET_REL32_EXPORT "ICQueInit"
+    export ICQueInit                                @    27CCFh
+  entry IET_REL32_EXPORT "ICCmp"
+    export ICCmp                                    @    2534Fh
+  entry IET_REL32_EXPORT "ICAddRSP"
+    export ICAddRSP                                 @    1E2A7h
+  entry IET_REL32_EXPORT "ICDiv"
+    export ICDiv                                    @    24127h
+  entry IET_REL32_EXPORT "ICDeref"
+    export ICDeref                                  @    1FBA7h
+  entry IET_REL32_EXPORT "ICLea"
+    export ICLea                                    @    1FA27h
+  entry IET_REL32_EXPORT "CmpBuf"
+    export CmpBuf                                   @    13E07h
+  entry IET_REL32_EXPORT "CMP_TEMPLATES_DONT_PUSH_POP"
+    export CMP_TEMPLATES_DONT_PUSH_POP              @      37Dh
+  entry IET_REL32_EXPORT "ICAddEct"
+    export ICAddEct                                 @    22FDFh
+  entry IET_REL32_EXPORT "ICToF64"
+    export ICToF64                                  @    25AF7h
+  entry IET_REL32_EXPORT "PrsBinFile"
+    export PrsBinFile                               @     CD66h
+  entry IET_REL32_EXPORT "HashTableSize2"
+    export HashTableSize2                           @     65C0h
+  entry IET_REL32_EXPORT "HashEntrySize2"
+    export HashEntrySize2                           @     6418h
+  entry IET_REL32_EXPORT "Ui"
+    export Ui                                       @     70B0h
+  entry IET_REL32_EXPORT "ICSlashOp"
+    export ICSlashOp                                @    1E917h
+  entry IET_REL32_EXPORT "OptBrZero"
+    export OptBrZero                                @     DD3Eh
+  entry IET_REL32_EXPORT "Un"
+    export Un                                       @     87D8h
+  entry IET_REL32_EXPORT "PrsSizeOf"
+    export PrsSizeOf                                @     F12Eh
+  entry IET_REL32_EXPORT "ICToI64"
+    export ICToI64                                  @    25AB7h
+  entry IET_REL32_EXPORT "ICMod"
+    export ICMod                                    @    2444Fh
+  entry IET_REL32_EXPORT "OptSetNOP1"
+    export OptSetNOP1                               @     D7CEh
+  entry IET_REL32_EXPORT "OptPass789A"
+    export OptPass789A                              @    28F5Fh
+  entry IET_REL32_EXPORT "OptSetNOP2"
+    export OptSetNOP2                               @     D7FEh
+  entry IET_REL32_EXPORT "ICXorEqu"
+    export ICXorEqu                                 @    2876Fh
+  entry IET_REL32_EXPORT "ICToUpper"
+    export ICToUpper                                @    25A47h
+  entry IET_REL32_EXPORT "AsmLexExpression"
+    export AsmLexExpression                         @     A1A0h
+  entry IET_REL32_EXPORT "ICMov"
+    export ICMov                                    @    1EF47h
+  entry IET_REL32_EXPORT "ICNot"
+    export ICNot                                    @    24F97h
+  entry IET_REL32_EXPORT "ICMul"
+    export ICMul                                    @    23AD7h
+  entry IET_REL32_EXPORT "ICRex"
+    export ICRex                                    @    1E16Fh
+  entry IET_REL32_EXPORT "ICPop"
+    export ICPop                                    @    1EC77h
+  entry IET_REL32_EXPORT "LexStmt2Bin"
+    export LexStmt2Bin                              @    13647h
+  entry IET_REL32_EXPORT "ICSub"
+    export ICSub                                    @    237C7h
+  entry IET_REL32_EXPORT "COCFloatConstFind"
+    export COCFloatConstFind                        @     8D90h
+  entry IET_REL32_EXPORT "ICPut"
+    export ICPut                                    @     2A72h
+  entry IET_REL32_EXPORT "PrsArrayDims"
+    export PrsArrayDims                             @    11FE6h
+  entry IET_REL32_EXPORT "ICSqr"
+    export ICSqr                                    @    2819Fh
+  entry IET_REL32_EXPORT "CMP_TEMPLATES_DONT_POP"
+    export CMP_TEMPLATES_DONT_POP                   @      17Fh
+  entry IET_REL32_EXPORT "PrsClass"
+    export PrsClass                                 @    1526Fh
+  entry IET_REL32_EXPORT "MemberMetaData"
+    export MemberMetaData                           @     302Ah
+  entry IET_REL32_EXPORT "ICSwitch"
+    export ICSwitch                                 @    2885Fh
+  entry IET_REL32_EXPORT "OptBrNotZero"
+    export OptBrNotZero                             @     E0FEh
+  entry IET_REL32_EXPORT "LexPutToken"
+    export LexPutToken                              @     2162h
+  entry IET_REL32_EXPORT "AsmHashLoad"
+    export AsmHashLoad                              @     95C8h
+  entry IET_REL32_EXPORT "UAsmHashLoad"
+    export UAsmHashLoad                             @     6EC0h
+  entry IET_REL32_EXPORT "UnusedExternWarning"
+    export UnusedExternWarning                      @     2612h
+  entry IET_REL32_EXPORT "ICXorXor"
+    export ICXorXor                                 @    2525Fh
+  entry IET_REL32_EXPORT "PrsTryBlk"
+    export PrsTryBlk                                @    17557h
+  entry IET_REL32_EXPORT "CInit"
+    export CInit                                    @    1521Fh
+  entry IET_REL32_EXPORT "MemberMetaFind"
+    export MemberMetaFind                           @     3072h
+  entry IET_REL32_EXPORT "ExePrint2"
+    export ExePrint2                                @    1503Fh
+  entry IET_REL32_EXPORT "PrsVarInit"
+    export PrsVarInit                               @    1164Eh
+  entry IET_REL32_EXPORT "ICOrEqu"
+    export ICOrEqu                                  @    2866Fh
+  entry IET_REL32_EXPORT "ICModr1"
+    export ICModr1                                  @    1E56Fh
+  entry IET_REL32_EXPORT "ICModr2"
+    export ICModr2                                  @    1E827h
+  entry IET_REL32_EXPORT "ICPreIncDec"
+    export ICPreIncDec                              @    25BA7h
+  entry IET_REL32_EXPORT "PrsUnaryTerm"
+    export PrsUnaryTerm                             @     FCD6h
+  entry IET_REL32_EXPORT "MemberLstDel"
+    export MemberLstDel                             @     3452h
+  entry IET_REL32_EXPORT "ICAndAnd"
+    export ICAndAnd                                 @    2508Fh
+  entry IET_REL32_EXPORT "InstEntriesCompare"
+    export InstEntriesCompare                       @     6848h
+  entry IET_REL32_EXPORT "MemberLstCmp"
+    export MemberLstCmp                             @     335Ah
+  entry IET_REL32_EXPORT "COCDel"
+    export COCDel                                   @     8E60h
+  entry IET_REL32_EXPORT "ICFAdd"
+    export ICFAdd                                   @    2298Fh
+  entry IET_REL32_EXPORT "CmdLinePmt"
+    export CmdLinePmt                               @    1340Fh
+  entry IET_REL32_EXPORT "AsmMakeArgMask"
+    export AsmMakeArgMask                           @     B1B8h
+  entry IET_REL32_EXPORT "COCHeaderPut"
+    export COCHeaderPut                             @     8FC8h
+  entry IET_REL32_EXPORT "PrsGlblInit"
+    export PrsGlblInit                              @    11E2Eh
+  entry IET_REL32_EXPORT "ICAndEqu"
+    export ICAndEqu                                 @    2856Fh
+  entry IET_REL32_EXPORT "LexD2I32"
+    export LexD2I32                                 @    13287h
+  entry IET_REL32_EXPORT "MemberLstNew"
+    export MemberLstNew                             @     332Ah
+  entry IET_REL32_EXPORT "LexD3I32"
+    export LexD3I32                                 @    1332Fh
+  entry IET_REL32_EXPORT "OptClassFwd"
+    export OptClassFwd                              @     D7A6h
+  entry IET_REL32_EXPORT "ICFCmp"
+    export ICFCmp                                   @    21057h
+  entry IET_REL32_EXPORT "PrsSwitch"
+    export PrsSwitch                                @    169DFh
+  entry IET_REL32_EXPORT "ICFDiv"
+    export ICFDiv                                   @    228EFh
+  entry IET_REL32_EXPORT "AOTStoreCodeU8At"
+    export AOTStoreCodeU8At                         @     A0E8h
+  entry IET_REL32_EXPORT "OptPass6Lag"
+    export OptPass6Lag                              @    1DB77h
+  entry IET_REL32_EXPORT "OptLag1"
+    export OptLag1                                  @     D886h
+  entry IET_REL32_EXPORT "OptLag2"
+    export OptLag2                                  @     D8BEh
+  entry IET_REL32_EXPORT "StreamPrint"
+    export StreamPrint                              @    1318Fh
+  entry IET_REL32_EXPORT "_LAST_FUN"
+    export _LAST_FUN                                @    130B6h
+  entry IET_REL32_EXPORT "ICFCvt"
+    export ICFCvt                                   @    2011Fh
+  entry IET_REL32_EXPORT "StreamDir"
+    export StreamDir                                @    13237h
+  entry IET_REL32_EXPORT "PrsOffsetOf"
+    export PrsOffsetOf                              @     F346h
+  entry IET_REL32_EXPORT "GetOption"
+    export GetOption                                @    13086h
+  entry IET_REL32_EXPORT "PrsDoWhile"
+    export PrsDoWhile                               @    16737h
+  entry IET_REL32_EXPORT "ICShift"
+    export ICShift                                  @    24B37h
+  entry IET_REL32_EXPORT "ICFMod"
+    export ICFMod                                   @    20547h
+  entry IET_REL32_EXPORT "COCPop"
+    export COCPop                                   @     8C18h
+  entry IET_REL32_EXPORT "PrsExpression2"
+    export PrsExpression2                           @     E8E6h
+  entry IET_REL32_EXPORT "LexPopRestore"
+    export LexPopRestore                            @     2F8Ah
+  entry IET_REL32_EXPORT "ICUnaries"
+    export ICUnaries                                @    24F1Fh
+  entry IET_REL32_EXPORT "ICFMul"
+    export ICFMul                                   @    227DFh
+  entry IET_REL32_EXPORT "ICShiftEqu"
+    export ICShiftEqu                               @    24CA7h
+  entry IET_REL32_EXPORT "LexExpression2Bin"
+    export LexExpression2Bin                        @    11496h
+  entry IET_REL32_EXPORT "ICFPow"
+    export ICFPow                                   @    2064Fh
+  entry IET_REL32_EXPORT "MapFileWrite"
+    export MapFileWrite                             @     6630h
+  entry IET_REL32_EXPORT "ICFSub"
+    export ICFSub                                   @    22B87h
+  entry IET_REL32_EXPORT "ICFModEqu"
+    export ICFModEqu                                @    21197h
+  entry IET_REL32_EXPORT "CmpF1PushPop"
+    export CmpF1PushPop                             @     E5F6h
+  entry IET_REL32_EXPORT "OptFree"
+    export OptFree                                  @     D82Eh
+  entry IET_REL32_EXPORT "CMP_TEMPLATES_DONT_PUSH2"
+    export CMP_TEMPLATES_DONT_PUSH2                 @      409h
+  entry IET_REL32_EXPORT "LexDollar"
+    export LexDollar                                @     3A20h
+  entry IET_REL32_EXPORT "AsmUnresolvedAdd"
+    export AsmUnresolvedAdd                         @     AB48h
+  entry IET_REL32_EXPORT "AOTStoreCodeU8"
+    export AOTStoreCodeU8                           @     9D50h
+  entry IET_REL32_EXPORT "ICBitOps"
+    export ICBitOps                                 @    2574Fh
+  entry IET_REL32_EXPORT "lex_zeros"
+    export lex_zeros                                @     3A1Ch
+  entry IET_REL32_EXPORT "ClassMemberLstDel"
+    export ClassMemberLstDel                        @     350Ah
+  entry IET_REL32_EXPORT "AsmResolve"
+    export AsmResolve                               @     A3A0h
+  entry IET_REL32_EXPORT "PrsAsmInst"
+    export PrsAsmInst                               @     B98Eh
+  entry IET_REL32_EXPORT "COCCompile"
+    export COCCompile                               @     9090h
+  entry IET_REL32_EXPORT "RunFile2"
+    export RunFile2                                 @    150FFh
+  entry IET_REL32_EXPORT "Cmp"
+    export Cmp                                      @    14747h
+  entry IET_REL32_EXPORT "PrsPush2"
+    export PrsPush2                                 @     8910h
+  entry IET_REL32_EXPORT "ICArgPut"
+    export ICArgPut                                 @     277Ah
+  entry IET_REL32_EXPORT "UndefinedExtern"
+    export UndefinedExtern                          @     25CAh
+  entry IET_REL32_EXPORT "OptIC4"
+    export OptIC4                                   @    1C397h
+  entry IET_REL32_EXPORT "OptIC6"
+    export OptIC6                                   @    1DA5Fh
+  entry IET_REL32_EXPORT "ICCmpAndBranch"
+    export ICCmpAndBranch                           @    26397h
+  entry IET_REL32_EXPORT "ICDivEqu"
+    export ICDivEqu                                 @    241DFh
+  entry IET_REL32_EXPORT "PrsWhile"
+    export PrsWhile                                 @    16647h
+  entry IET_REL32_EXPORT "ICFCmpAndBranch"
+    export ICFCmpAndBranch                          @    21F27h
+  entry IET_REL32_EXPORT "Lex"
+    export Lex                                      @     4A28h
+  entry IET_REL32_EXPORT "ICTestAndBranch"
+    export ICTestAndBranch                          @    26AA7h
+  entry IET_REL32_EXPORT "uasm"
+    export uasm                                     @     62D0h
+  entry IET_REL32_EXPORT "AOTLocalsResolve"
+    export AOTLocalsResolve                         @     A5E8h
+  entry IET_REL32_EXPORT "CmpFixUpAOTAsm"
+    export CmpFixUpAOTAsm                           @    14357h
+  entry IET_REL32_EXPORT "OptLabelFwd"
+    export OptLabelFwd                              @     D77Eh
+  entry IET_REL32_EXPORT "ICOrOr"
+    export ICOrOr                                   @    2516Fh
+  entry IET_REL32_EXPORT "LexExcept"
+    export LexExcept                                @     24E2h
+  entry IET_REL32_EXPORT "cmp_templates"
+    export cmp_templates                            @        0h
+  entry IET_REL32_EXPORT "CmpF2PushPop"
+    export CmpF2PushPop                             @     E63Eh
+  entry IET_REL32_EXPORT "CmpJoin"
+    export CmpJoin                                  @    1378Fh
+  entry IET_REL32_EXPORT "PrsPop2"
+    export PrsPop2                                  @     8948h
+  entry IET_REL32_EXPORT "CMP_TEMPLATES"
+    export CMP_TEMPLATES                            @        0h
+  entry IET_REL32_EXPORT "PrsAsmBlk"
+    export PrsAsmBlk                                @     CE26h
+  entry IET_REL32_EXPORT "PrsAsmArg"
+    export PrsAsmArg                                @     AD88h
+  entry IET_REL32_EXPORT "LexFirstRem"
+    export LexFirstRem                              @     43E0h
+  entry IET_REL32_EXPORT "MemberClassBaseFind"
+    export MemberClassBaseFind                      @     3122h
+  entry IET_REL32_EXPORT "MemberFind"
+    export MemberFind                               @     30BAh
+  entry IET_REL32_EXPORT "cmp"
+    export cmp                                      @      4C8h
+  entry IET_REL32_EXPORT "OptLag"
+    export OptLag                                   @     D856h
+  entry IET_REL32_EXPORT "ICPostIncDec"
+    export ICPostIncDec                             @    25D8Fh
+  entry IET_REL32_EXPORT "ICFPostIncDec"
+    export ICFPostIncDec                            @    22DC7h
+  entry IET_REL32_EXPORT "ICTest"
+    export ICTest                                   @    1EE37h
+  entry IET_REL32_EXPORT "ICModU64"
+    export ICModU64                                 @    281EFh
+  entry IET_REL32_EXPORT "PrsAsmImm"
+    export PrsAsmImm                                @     AC58h
+  entry IET_REL32_EXPORT "LexExtStr"
+    export LexExtStr                                @     3632h
+  entry IET_REL32_EXPORT "ICAddSubEctEqu"
+    export ICAddSubEctEqu                           @    24507h
+  entry IET_REL32_EXPORT "ICAddSubEctImm"
+    export ICAddSubEctImm                           @    2329Fh
+  entry IET_REL32_EXPORT "ICPush"
+    export ICPush                                   @    1EA9Fh
+  entry IET_REL32_EXPORT "ICSwap"
+    export ICSwap                                   @    28307h
+  entry IET_REL32_EXPORT "CMP_TEMPLATES_DONT_PUSH"
+    export CMP_TEMPLATES_DONT_PUSH                  @      247h
+  entry IET_REL32_EXPORT "intermediate_code_table"
+    export intermediate_code_table                  @      790h
+  entry IET_REL32_EXPORT "ICZero"
+    export ICZero                                   @    1EDD7h
+  entry IET_REL32_EXPORT "CmpCtrlDel"
+    export CmpCtrlDel                               @     3922h
+  entry IET_REL32_EXPORT "ICClassPut"
+    export ICClassPut                               @     26AAh
+  entry IET_REL32_EXPORT "ICAssign"
+    export ICAssign                                 @    273D7h
+  entry IET_REL32_EXPORT "ICFTemplateFun"
+    export ICFTemplateFun                           @    22F2Fh
+  entry IET_REL32_EXPORT "RunFile"
+    export RunFile                                  @    14F47h
+  entry IET_REL32_EXPORT "MemberAdd"
+    export MemberAdd                                @     316Ah
+  entry IET_REL32_EXPORT "PrsPush"
+    export PrsPush                                  @     88B8h
+  entry IET_REL32_EXPORT "CmpCtrlSize"
+    export CmpCtrlSize                              @     3982h
+  entry IET_REL32_EXPORT "ICLocalVarInit"
+    export ICLocalVarInit                           @    28EE7h
+  entry IET_REL32_EXPORT "PrsFor"
+    export PrsFor                                   @    16877h
+  entry IET_REL32_EXPORT "PassTrace"
+    export PassTrace                                @    13107h
+  entry IET_REL32_EXPORT "PrsPopDeref"
+    export PrsPopDeref                              @     8978h
+  entry IET_REL32_EXPORT "ICCopyTemplate"
+    export ICCopyTemplate                           @    1FEE7h
+  entry IET_REL32_EXPORT "PrsStmt"
+    export PrsStmt                                  @    17817h
+  entry IET_REL32_EXPORT "PrsFun"
+    export PrsFun                                   @    15777h
+  entry IET_REL32_EXPORT "LexIncludeStr"
+    export LexIncludeStr                            @     44A0h
+  entry IET_REL32_EXPORT "PrsType"
+    export PrsType                                  @    1213Eh
+  entry IET_REL32_EXPORT "CmpCtrlNew"
+    export CmpCtrlNew                               @     37FAh
+  entry IET_REL32_EXPORT "cmp_type_flags_src_code"
+    export cmp_type_flags_src_code                  @     45B8h
+  entry IET_REL32_EXPORT "PrsVarInit2"
+    export PrsVarInit2                              @    11B26h
+  entry IET_REL32_EXPORT "PrsPop"
+    export PrsPop                                   @     88E8h
+  entry IET_REL32_EXPORT "asm_seg_prefixes"
+    export asm_seg_prefixes                         @     B988h
+  entry IET_REL32_EXPORT "ICMinMax"
+    export ICMinMax                                 @    28007h
+  entry IET_REL32_EXPORT "CmpLoadDefines"
+    export CmpLoadDefines                           @     18E2h
+  entry IET_REL32_EXPORT "PrsIf"
+    export PrsIf                                    @    16517h
+  entry IET_REL32_EXPORT "ICBuiltInFloatConst"
+    export ICBuiltInFloatConst                      @    1EE87h
+  entry IET_REL32_EXPORT "ICFUnaryMinus"
+    export ICFUnaryMinus                            @    20397h
+  entry IET_REL32_EXPORT "LexDocRead"
+    export LexDocRead                               @     4530h
+  entry IET_REL32_EXPORT "CmpFixUpJITAsm"
+    export CmpFixUpJITAsm                           @    13EBFh
+  entry IET_REL32_EXPORT "COCPopNoFree"
+    export COCPopNoFree                             @     8BE8h
+  entry IET_REL32_EXPORT "ParenWarning"
+    export ParenWarning                             @     265Ah
+  entry IET_REL32_EXPORT "PrsFunCall"
+    export PrsFunCall                               @     F49Eh
+  entry IET_REL32_EXPORT "ICDerefPostIncDec"
+    export ICDerefPostIncDec                        @    25F8Fh
+  entry IET_REL32_EXPORT "Option"
+    export Option                                   @    13056h
+  entry IET_REL32_EXPORT "ExeFile2"
+    export ExeFile2                                 @    15087h
+  entry IET_REL32_EXPORT "LexBackupLastChar"
+    export LexBackupLastChar                        @     2EEAh
+  entry IET_REL32_EXPORT "Trace"
+    export Trace                                    @    1315Fh
+  entry IET_REL32_EXPORT "ICBrBitOps"
+    export ICBrBitOps                               @    27687h
+  entry IET_REL32_EXPORT "LexGetChar"
+    export LexGetChar                               @     3A98h
+  entry IET_REL32_EXPORT "LexSkipEol"
+    export LexSkipEol                               @     43B0h
+  entry IET_REL32_EXPORT "ICFlagBranch"
+    export ICFlagBranch                             @    26C7Fh
+  entry IET_REL32_EXPORT "ICFPreIncDec"
+    export ICFPreIncDec                             @    22CA7h
+  entry IET_REL32_EXPORT "ExeFile"
+    export ExeFile                                  @    14EC7h
+  entry IET_REL32_EXPORT "COCMiscNew"
+    export COCMiscNew                               @     8CE0h
+  entry IET_REL32_EXPORT "cmp_templates_dont_pop"
+    export cmp_templates_dont_pop                   @      17Fh
+  entry IET_REL32_EXPORT "CmpOffset2Reg"
+    export CmpOffset2Reg                            @     D91Eh
+  entry IET_REL32_EXPORT "PrsFunNew"
+    export PrsFunNew                                @     8A60h
+  entry IET_REL32_EXPORT "StreamExePrint"
+    export StreamExePrint                           @    1512Fh
+  entry IET_REL32_EXPORT "COCGoToLabelFind"
+    export COCGoToLabelFind                         @     8D38h
+  entry IET_REL32_EXPORT "OptMVCompare"
+    export OptMVCompare                             @     E6D6h
+  entry IET_REL32_EXPORT "ICToBool"
+    export ICToBool                                 @    25B37h
+  entry IET_REL32_EXPORT "PrsFunJoin"
+    export PrsFunJoin                               @    154BFh
+  entry IET_REL32_EXPORT "OptFixSizeOf"
+    export OptFixSizeOf                             @     E4B6h
+  entry IET_REL32_EXPORT "cmp_templates_dont_push"
+    export cmp_templates_dont_push                  @      247h
+  entry IET_REL32_EXPORT "cmp_templates_dont_push_pop"
+    export cmp_templates_dont_push_pop              @      37Dh
+  entry IET_REL32_EXPORT "LexAttachDoc"
+    export LexAttachDoc                             @     45C0h
+  entry IET_REL32_EXPORT "PrsStreamBlk"
+    export PrsStreamBlk                             @    17397h
+  entry IET_REL32_EXPORT "cmp_templates_dont_push2"
+    export cmp_templates_dont_push2                 @      409h
+  entry IET_REL32_EXPORT "InstEntryFind"
+    export InstEntryFind                            @     6AA0h
+  entry IET_REL32_EXPORT "PrsDotDotDot"
+    export PrsDotDotDot                             @    124A6h
+  entry IET_REL32_EXPORT "ICMulEqu"
+    export ICMulEqu                                 @    23D7Fh
+  entry IET_REL32_EXPORT "AsmPrsInsFlags"
+    export AsmPrsInsFlags                           @     9388h
+  entry IET_REL32_EXPORT "PrsNoWarn"
+    export PrsNoWarn                                @    172FFh
+  entry IET_MAIN ""
+    main function @      A22h
+  entry IET_REL_I32 "_MALLOC"
+    at    18498h    173B8h    173ACh    17142h    16F0Dh    16E41h    16C08h    16127h
+          160F7h    14B5Dh    14780h    13C6Ch    13C2Ch    137AFh    1358Ah    12E1Eh
+          129BEh    129AAh    12551h    12084h    11D54h    11D37h    11CA1h    11BFEh
+          11BE9h    1050Ch     EFD9h     AB80h     9995h     9655h     9269h     9256h
+           8E2Eh     8BC3h     8AF0h     6FBBh     6FA1h     6741h     55B4h     5529h
+           4FC5h     4F5Dh     4452h     3C99h     36C1h
+  entry IET_REL_I32 "LstMatch"
+    at     96B9h     93CEh
+  entry IET_REL_I32 "SysTry"
+    at    14DDBh    13A21h     F01Fh
+  entry IET_REL_I32 "StrPrint"
+    at     7291h     7205h
+  entry IET_REL_I32 "FileNameAbs"
+    at     5C39h     5271h     38BBh
+  entry IET_REL_I32 "PutFileLink"
+    at     23A9h
+  entry IET_REL_I32 "DocBinsValidate"
+    at     67E2h
+  entry IET_REL_I32 "DefineLstLoad"
+    at     19B4h     19A5h     1996h     1987h     1978h     1969h     195Ah     194Bh
+           193Ch     192Dh     191Eh     190Fh     1900h     18F1h
+  entry IET_REL_I32 "_BEQU"
+    at    1F9E3h    1563Bh    1307Ah    11518h
+  entry IET_IMM_U32 "char_bmp_non_eol_white_space"
+    at     5310h
+  entry IET_REL_I32 "AdamErr"
+    at     2540h     249Dh     23CBh
+  entry IET_REL_I32 "HashSrcFileSet"
+    at    161F1h    161E6h    15656h    153BCh    153B1h    152DCh     D4C3h     D30Eh
+           5C56h     5302h
+  entry IET_REL_I32 "HashTableDel"
+    at    13BDEh    13BCEh     A6A8h
+  entry IET_REL_I32 "_CLAMP_I64"
+    at     4663h
+  entry IET_REL_I32 "Caller"
+    at     25D1h
+  entry IET_REL_I32 "DocDel"
+    at     67F2h     37CFh
+  entry IET_IMM_U32 "char_bmp_alpha_numeric"
+    at     388Ch
+  entry IET_REL_I32 "_MEMSET_I64"
+    at    17158h
+  entry IET_REL_I32 "_CALL"
+    at    12D21h    11A4Ch    11631h    115DCh    11584h     CBDAh     AD1Eh     A3C8h
+           A213h
+  entry IET_REL_I32 "HashTableNew"
+    at    139C3h    1391Ah    138FCh     A6B1h     963Bh
+  entry IET_REL_I32 "Pow10I64"
+    at     4EF5h     4ED8h     4E4Eh
+  entry IET_IMM_U32 "char_bmp_alpha_numeric_no_at"
+    at     387Bh
+  entry IET_REL_I32 "_MSIZE2"
+    at     661Bh     6611h     659Fh     6577h     6536h     6509h     6491h     646Eh
+           6462h     6456h     643Dh     642Ah     3A01h     39F7h     39E6h     39DDh
+           39D1h     3610h     3602h     35F8h     35E5h     35A1h     3580h
+  entry IET_REL_I32 "DocNew"
+    at     6651h     454Bh
+  entry IET_REL_I32 "DirCur"
+    at    134F7h
+  entry IET_REL_I32 "LinkedLstDel"
+    at    13D3Ah    13B8Dh     A889h     A68Eh     8F0Eh     394Ch     3940h     347Eh
+  entry IET_REL_I32 "_FREE"
+    at    29AC8h    1C004h    17BDEh    17526h    17520h    174E3h    171C9h    17072h
+          15943h    1558Ah    1557Bh    1556Ah    1535Ah    15349h    151BFh    150D7h
+          150D1h    15077h    14F19h    14F13h    14EB1h    14C5Bh    14C52h    14C49h
+          14C40h    14C37h    14C27h    14C1Eh    14BD5h    14B10h    14B0Ah    14AF0h
+          14A5Ch    14A56h    14A3Ch    14997h    14980h    1491Fh    1487Dh    14616h
+          14610h    14284h    14242h    14232h    1422Ch    13FCDh    13F9Ch    13DD5h
+          13DCCh    13B7Dh    13740h    13600h    13518h    13279h    13212h    131F6h
+          12DA4h    12B68h    11FC6h    11D94h    11D27h    11C46h    11BD9h    11A64h
+          11A12h    1188Dh    11807h    1163Ah    115E5h    1158Dh     F092h     D847h
+           CDB2h     CBE6h     AD40h     AA0Eh     A890h     A880h     A694h     A685h
+           A21Fh     9B22h     8F4Ch     8F28h     8F22h     8F03h     8EF8h     8CD4h
+           8C29h     67CBh     5C44h     5BE9h     55CEh     5543h     52B4h     527Bh
+           4FDDh     4FBAh     4F77h     4C64h     45A4h     457Fh     3EE3h     3E99h
+           3C6Ah     3A75h     3A46h     3979h     3973h     396Ah     3961h     3958h
+           37E9h     37E3h     37DAh     36F8h     36F1h     34F1h     34E6h     34E0h
+           34D1h     3490h     3475h     301Bh     2FEEh
+  entry IET_IMM_U32 "blkdev"
+    at    14F99h    14CF5h     44E7h     38C8h
+  entry IET_REL_I32 "CeilU64"
+    at     D076h
+  entry IET_REL_I32 "MStrPrint"
+    at    150B7h    14EF7h    147C6h    131E6h     3A5Fh
+  entry IET_IMM_U32 "adam_task"
+    at     9BCBh
+  entry IET_REL_I32 "GetStr"
+    at    13554h
+  entry IET_REL_I32 "_STRIMATCH"
+    at    1BFADh    1BE0Bh
+  entry IET_REL_I32 "PutSrcLink"
+    at     7EECh     71AEh
+  entry IET_REL_I32 "StrPrintJoin"
+    at    15155h    15061h    14E99h    131B5h
+  entry IET_REL_I32 "FixSet"
+    at     2358h
+  entry IET_IMM_U32 "MEM_BOOT_BASE"
+    at     63BCh
+  entry IET_REL_I32 "throw"
+    at    2B6C4h    2153Fh    2083Dh    207F8h    1FE5Fh    1E546h    1E4E5h    1819Fh
+          17E90h    16ADEh    168EBh    167D5h    166ADh    1656Ch    12D18h    12C5Eh
+          11A45h    1192Ch    11164h    110B1h    101B2h     F963h     F8F6h     F7B8h
+           25F4h     2584h
+  entry IET_IMM_U32 "char_bmp_printable"
+    at     3F76h
+  entry IET_REL_I32 "DocPrint"
+    at     67C0h     67A6h
+  entry IET_REL_I32 "_MEMCPY"
+    at    2B8FBh    2B71Eh    2B69Ch    2B5AEh    29ABBh    29133h    200DCh    1B6F8h
+          174BAh    17408h    14DADh    14BCCh    14BAAh    14AE7h    14A33h    14916h
+          13DC3h    13D0Dh    138D4h    1359Ah    11D85h    11C2Dh    11C11h    11AB2h
+           C7FEh     C6A4h     C60Fh     C5B6h     C56Bh     C491h     C451h     C35Eh
+           C004h     BEF0h     BE21h     BD13h     99A5h     8C09h     8BD6h     6751h
+           55FDh     55E8h     55C8h     5572h     555Dh     553Dh     4FD7h     4FA6h
+           4F91h     4F71h     3CCAh     36EAh     36D9h     2FDEh
+  entry IET_REL_I32 "DefineSub"
+    at     7DFBh     7D8Bh
+  entry IET_REL_I32 "PrintWarn"
+    at    1BFF1h    1BE4Fh    1BC85h    1AEA9h    1ADB8h    163A3h    15A8Bh    15A40h
+          15708h    156DBh     C071h     BC3Dh     A4DBh     8EDDh     8808h     872Dh
+           262Ch     2419h
+  entry IET_IMM_U32 "SYS_VAR_INIT_VAL"
+    at    28F27h    1630Ah    16192h    12ADAh    12A0Ch
+  entry IET_REL_I32 "HashTypeNum"
+    at     631Ah
+  entry IET_REL_I32 "_MEMSET"
+    at    184FCh    1631Ch    161A4h    14B29h    12AECh    12A1Eh    118A6h     BA8Eh
+           ADADh     9789h
+  entry IET_IMM_U32 "char_bmp_dec_numeric"
+    at     4EA2h     4E0Dh     4D87h
+  entry IET_REL_I32 "ExtChg"
+    at    14C00h
+  entry IET_REL_I32 "PutChars"
+    at    1351Fh     A090h     9F47h     9E02h     3F8Ch     2D9Bh     2995h     28DEh
+           2744h     26F6h     23D6h     231Dh     230Ch     2232h     216Eh
+  entry IET_REL_I32 "SysUntry"
+    at    14DF6h    13AF2h     F035h
+  entry IET_REL_I32 "ExtDft"
+    at    150A7h    14EE7h    14BECh    147E5h    147B2h     CD97h     5C2Dh     5265h
+  entry IET_REL_I32 "DocWrite"
+    at     67EBh
+  entry IET_REL_I32 "FileWrite"
+    at    14C17h
+  entry IET_REL_I32 "_HASH_FIND"
+    at    20684h    17DCFh    175A3h    1758Bh    15507h    15303h    140D8h     FE16h
+           F529h     F4E9h     AEF4h     A7ABh     9A4Fh     99C4h     4C0Bh
+  entry IET_REL_I32 "Dbg"
+    at     2572h
+  entry IET_REL_I32 "_HASH_ADD_AFTER"
+    at    1048Bh
+  entry IET_REL_I32 "DirFile"
+    at    1325Ah
+  entry IET_REL_I32 "DocLoad"
+    at     459Eh
+  entry IET_REL_I32 "FileRead"
+    at     CDA8h     966Dh     52A6h     4568h
+  entry IET_REL_I32 "_MSIZE"
+    at     6705h     63B5h     6397h     6341h
+  entry IET_REL_I32 "ExeCmdLine"
+    at    174A7h    1500Eh    14DEDh
+  entry IET_REL_I32 "SysSymImportsResolve"
+    at    16273h    15CCBh    159BEh    1405Bh
+  entry IET_REL_I32 "Raw"
+    at     2501h
+  entry IET_REL_I32 "PrintErr"
+    at    15183h    13208h     A98Eh     A83Fh     A817h     A653h     A48Dh     8F42h
+           2732h     26D8h     25DEh     251Eh
+  entry IET_REL_I32 "_MHEAP_CTRL"
+    at    1616Ch    16161h
+  entry IET_REL_I32 "_HASH_SINGLE_TABLE_FIND"
+    at    1552Ch    1531Ch
+  entry IET_REL_I32 "DocSize"
+    at     39C3h
+  entry IET_REL_I32 "IsRaw"
+    at    1352Eh     7199h     2527h     2449h     235Dh
+  entry IET_REL_I32 "MAllocIdent"
+    at     9A0Ch     2F67h
+  entry IET_REL_I32 "QSort"
+    at    1BB6Eh
+  entry IET_REL_I32 "_HASH_ADD"
+    at    2070Eh    1625Ah    15627h    15389h    152CDh    14050h    1049Ah    1046Eh
+           D437h     D427h     CF5Fh     9B9Fh     9AF8h     9A6Fh     99E2h     975Ch
+           5C64h     5617h
+  entry IET_REL_I32 "CAlloc"
+    at    2B823h    29D65h    29CCCh    29C5Dh    29BB0h    29460h    293B4h    2932Dh
+          2929Ah    28FC3h    28E36h    28D93h    207B3h    20746h    206E7h    1FB05h
+          1AD42h    16116h    160EBh    1601Bh    16008h    15F63h    15F57h    15F0Fh
+          15EEFh    15E9Ah    15E5Ah    15E32h    13FFAh    13A8Bh    1388Fh    13859h
+          137BCh    11F72h    119AEh    1179Ah    1041Eh     D39Eh     CF36h     B897h
+           B867h     B7D5h     B7A5h     B6D5h     B6A5h     B5E6h     B5B6h     AA28h
+           A3F6h     A147h     A044h     9EFCh     9DC4h     9A7Dh     970Ch     8CF9h
+           8A79h     8A11h     6731h     5C1Ch     52DDh     46BFh     4588h     38E7h
+           381Eh     3735h     3340h     2014h     1FEAh     1F84h     1EECh     1E91h
+           1E39h
+  entry IET_REL_I32 "HashDel"
+    at     8F19h     34BCh
+  entry IET_REL_I32 "QueDel"
+    at    14C30h    13754h     8E82h
+  entry IET_IMM_U32 "char_bmp_hex_numeric"
+    at     50FFh     4CD2h     4883h
+  entry IET_IMM_U32 "SYS_RUN_LEVEL"
+    at     5280h     255Dh     24F1h
+  entry IET_REL_I32 "RawDr"
+    at    1353Ah
+  entry IET_REL_I32 "QueVectU8Del"
+    at     447Bh
+  entry IET_REL_I32 "QueVectU8Get"
+    at     4468h
+  entry IET_REL_I32 "LinkedLstSize"
+    at     6524h     647Ah     358Ch
+  entry IET_REL_I32 "QueVectU8New"
+    at     4405h
+  entry IET_REL_I32 "QueVectU8Put"
+    at     4437h
+  entry IET_REL_I32 "DefineMatch"
+    at    12889h    12724h     991Bh     98B0h
+  entry IET_REL_I32 "IsDbgMode"
+    at    13524h     7EB7h
+  entry IET_REL_I32 "Print"
+    at    2B673h    2B63Ch    2B47Ah    2905Fh    1E0C1h    1E0ADh    1E01Ch    1DBCDh
+          1DA05h    1D78Ch    1D515h    1D490h    1C031h    1BF90h    1BDD9h    1BCBBh
+          1BAD8h    1AA2Ah    1A917h    14C77h    144E2h    140EEh    14095h    1350Dh
+          134C5h    134A9h    13479h     A332h     A2EAh     A0ABh     9F63h     9E1Bh
+           9231h     904Ah     900Ah     8863h     884Eh     8818h     8788h     8773h
+           873Dh     6716h     2D90h     2D74h     2D58h     2D34h     2D1Dh     2D06h
+           2CEFh     2CD8h     2CC1h     2CAAh     2C93h     2C7Ch     2C66h     2C50h
+           2C3Ah     2C24h     2C0Eh     2BF8h     2BE2h     2BCCh     2BACh     2B90h
+           2B12h     2AEFh     2AC8h     298Ah     2978h     2966h     2954h     2924h
+           28FEh     28CCh     28AAh     2891h     286Ch     284Bh     2832h     27F7h
+           27C0h     2720h     250Dh     2482h     2465h     2440h     2384h     2254h
+           2244h     2211h     21F8h     21D8h     21B5h     2192h
+  entry IET_REL_I32 "_STRCMP"
+    at    1BECDh    15A06h    10395h     9468h     944Fh     8D72h     6591h     63A7h
+           3ED1h     3EADh     3400h     3398h     31F8h     31CAh     31B9h     31A8h
+           30E0h     3096h     304Eh
+  entry IET_REL_I32 "StrOcc"
+    at     4423h
+  entry IET_REL_I32 "_STRCPY"
+    at     82CCh
+  entry IET_REL_I32 "FlushMsgs"
+    at     2558h
+  entry IET_IMM_U32 "SYS_VAR_INIT_FLAG"
+    at    2A996h    162F7h    1617Fh    12AC7h    129F9h
+  entry IET_REL_I32 "QSortI64"
+    at     709Fh     7081h
+  entry IET_REL_I32 "DocPutLine"
+    at     22D0h
+  entry IET_REL_I32 "_YIELD"
+    at     273Bh     26E1h
+  entry IET_REL_I32 "StrNew"
+    at    206F6h    173C7h    15F95h    15ED2h    15EBEh    15D81h    15D6Dh    12D8Fh
+          1253Ch    124F1h    122E5h     F76Dh     D46Bh     AC2Bh     AA90h     AA81h
+           A92Ch     A91Bh     66A3h     4C73h     4C35h     4620h     44F3h     44DAh
+           3EEFh     38D4h
+  entry IET_REL_I32 "CatPrint"
+    at     82FCh     8219h     8201h     81E9h     81BFh     818Ah     8145h     811Dh
+           80DBh     80BBh     8097h     8072h     804Bh     800Bh     7FC6h     7F9Eh
+           7F5Dh     7F29h     7F0Dh     7ED2h     7E8Ch     7E68h     7E43h     7E1Ch
+           7DDEh     7D98h     7D23h     7CDDh     7CADh     7C7Fh     7B69h     7ADBh
+           7A16h     79EAh     7947h     7849h     77D6h     770Fh     76F1h     76B5h
+           7699h     7652h     74A9h     7466h     7423h     73E0h     739Dh     735Ah
+           72E6h     7274h     7257h     71C7h
+  entry IET_IMM_U32 "char_bmp_displayable"
+    at     221Ch
+  entry IET_IMM_U32 "char_bmp_white_space"
+    at    135A8h
+  entry IET_REL_I32 "Doc2PlainText"
+    at     3A4Fh
+  entry IET_REL_I32 "AStrNew"
+    at     9B8Dh
+  entry IET_IMM_U32 "char_bmp_non_eol"
+    at     54BDh     542Ah     43C8h

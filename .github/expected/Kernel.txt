@@ -1,0 +1,2013 @@
+bininfo 0000Kernel.BIN.C
+
+BIN header:
+    jmp                 [EB 1E]h
+    alignment           128 byte(s)
+    org                 7FFFFFFFFFFFFFFF (9223372036854775807)
+    patch_table_offset  00000000000299C0 (170432)
+    file_size           000000000002E540 (189760)
+
+Patch table:
+  entry IET_ABS_ADDR ""
+    at    298A8h    2989Ch    29897h    2988Dh    29865h    2984Eh    2983Eh    2982Dh
+          297F2h    2976Eh    2973Ah    29725h    296EDh    296D3h    296ADh    29604h
+          2933Fh    2932Eh    292B5h    29270h    291DCh    2911Eh    2910Dh    290FCh
+          290ECh    29082h    28F66h    28F50h    28ED1h    28E55h    28E47h    28CFBh
+          28B09h    28AF4h    28AD6h    28ABFh    28AA7h    28A84h    28A2Dh    28A14h
+          289F3h    289A5h    28985h    28925h    288D2h    28861h    28777h    2838Dh
+          2834Bh    28301h    282FBh    282DBh    28195h    2818Fh    2810Dh    28107h
+          27F88h    27F82h    27EC2h    27EBCh    27E78h    27E71h    27DFFh    27D6Eh
+          27D4Ch    27C62h    27C4Dh    27A97h    27A83h    27730h    2767Dh    27638h
+          27632h    27611h    2760Bh    275ECh    27512h    2750Dh    2746Dh    27425h
+          2741Fh    2735Ah    27340h    27288h    2726Ah    27257h    2721Fh    2720Ch
+          270EAh    270D7h    2709Dh    265B5h    2656Bh    26565h    263B1h    26383h
+          26330h    2632Ah    2630Bh    262EFh    2628Ch    2623Ch    26236h    2609Ch
+          26060h    2605Ah    2602Ah    26013h    25EB5h    25E68h    25E1Eh    25DE6h
+          25DDDh    25DCDh    25DC4h    25DBDh    25DAAh    25D4Eh    25D3Bh    25D08h
+          25C51h    25B94h    25B82h    25B2Bh    25B05h    25AFFh    25AC0h    25A18h
+          25A0Bh    259FAh    259E7h    259DAh    259C8h    25930h    2572Dh    25706h
+          256D5h    256B4h    2566Ah    25664h    25635h    25619h    25568h    25541h
+          25510h    254F4h    254B0h    254AAh    25264h    25238h    25232h    25197h
+          2514Fh    25106h    250EFh    250D0h    250C1h    250B1h    24F20h    24D67h
+          24D62h    24B9Dh    2496Dh    24968h    24829h    24801h    244DCh    24332h
+          2432Dh    2391Dh    23918h    235F7h    235F2h    2336Bh    23366h    2319Ch
+          23197h    23184h    230FDh    230C7h    22F76h    22F71h    22F5Eh    22CAFh
+          22CAAh    22C97h    22C6Bh    22ADDh    22AACh    22A14h    229DCh    2281Bh
+          227CFh    227BEh    227B8h    22534h    22514h    2232Fh    2213Bh    22136h
+          21F7Ch    21F77h    21D41h    21D3Ch    21C08h    21A2Dh    21A28h    21920h
+          218F8h    217C2h    21671h    2166Ch    213EDh    213BEh    210C4h    210BFh
+          20EAAh    20EA5h    20C6Ah    20C65h    20C52h    20BD8h    20BA2h    20A71h
+          20A6Ch    20A59h    2086Eh    20869h    20856h    2082Ah    20533h    2052Eh
+          2037Ch    20377h    20225h    20220h    20159h    20154h    20106h    200DCh
+          1FFF4h    1FFDFh    1FFC3h    1FFAEh    1FF72h    1FF53h    1FF20h    1FF0Ah
+          1FD9Ch    1FD86h    1FD7Dh    1FD77h    1FB0Fh    1FAEBh    1FAE5h    1FA05h
+          1F823h    1F7F8h    1F52Ah    1F524h    1F374h    1F36Eh    1F266h    1F260h
+          1F1C2h    1F148h    1F142h    1F10Fh    1F0B7h    1F0B2h    1EFF4h    1EF80h
+          1EF7Ah    1EF47h    1EEFFh    1EEFAh    1EE2Eh    1EE28h    1EC96h    1EC90h
+          1EC64h    1EC5Fh    1EADEh    1EAD8h    1EAACh    1EAA7h    1EA4Eh    1EA48h
+          1E956h    1E950h    1E924h    1E91Fh    1E825h    1E81Fh    1E76Ch    1E767h
+          1E65Dh    1E657h    1E5ACh    1E5A7h    1E4D8h    1E4D2h    1E3B2h    1E38Ch
+          1E36Ch    1E345h    1E31Dh    1E2FCh    1E2D5h    1E2CBh    1E24Ah    1E204h
+          1E1DFh    1E064h    1E054h    1E04Eh    1E031h    1DF73h    1DE37h    1DE32h
+          1DD97h    1DB5Bh    1DB55h    1D627h    1D621h    1D39Ah    1D321h    1D2BFh
+          1D288h    1D1ECh    1D1BAh    1D19Bh    1D196h    1D08Ah    1D084h    1CA94h
+          1CA7Eh    1CA5Ch    1CA46h    1CA12h    1C9FCh    1C9D5h    1C9BFh    1C95Fh
+          1C949h    1C925h    1C90Fh    1C8AEh    1C6F1h    1C5C6h    1C5B0h    1C58Ah
+          1C578h    1C566h    1C550h    1C2E0h    1C1F7h    1C1DFh    1C1CDh    1C1B7h
+          1C14Eh    1C115h    1C0E2h    1A1F4h    1A1D5h    1A1B6h    1A17Fh    1A158h
+          1A143h    1A05Ah    1A017h    19FA9h    19E1Ch    19D94h    19CA8h    19C1Ah
+          19C03h    19ADCh    19ACAh    19AAAh    19A27h    19A1Ah    19A09h    199F6h
+          199E9h    199D7h    1995Bh    1992Ch    197A8h    1978Ah    1976Ch    1974Eh
+          1972Dh    1970Ch    196A7h    19692h    193ACh    19306h    192EFh    18FF6h
+          18FC9h    18F31h    18E3Ah    18BFDh    18BF7h    18BD9h    18BD3h    189E0h
+          18706h    1856Ah    1853Eh    1842Ah    18416h    18405h    183F8h    18332h
+          18073h    1802Fh    17F46h    17E92h    17DC1h    17D53h    17C46h    17BF4h
+          17BDBh    17BD3h    17BCCh    17BC3h    17BABh    176F0h    176EAh    176E4h
+          176DEh    176D8h    176D2h    176CDh    176BBh    176B5h    176AFh    176A9h
+          176A3h    1769Dh    17697h    175ECh    175E5h    175C5h    175BBh    175B0h
+          175A4h    1759Bh    1749Ah    17427h    17402h    173C4h    17334h    172ACh
+          1721Bh    171FEh    171D8h    17184h    17167h    16F8Bh    16F83h    16F28h
+          16F22h    16D46h    16D29h    16D24h    16C91h    16C8Ch    16C29h    16B7Dh
+          16B77h    1661Dh    16615h    1602Ah    15FC3h    15F83h    15ED3h    15ECEh
+          15C74h    15C6Eh    15A82h    15951h    1590Fh    15489h    15409h    1531Fh
+          152AEh    14D0Bh    14C82h    147B2h    1479Eh    14799h    146B1h    146A6h
+          145CCh    14578h    14416h    143FCh    1413Dh    14129h    13F4Dh    13F42h
+          13E49h    13E44h    13DE2h    13DDDh    13CF9h    13CF4h    13CABh    13CA6h
+          13C55h    13C50h    13A17h    13A00h    13894h    13878h    13471h    1345Bh
+          13443h    1342Dh    133BDh    133B2h    13381h    13376h    13328h    132BDh
+          132B8h    131AEh    131A3h    12F0Dh    12F07h    12E9Bh    12E95h    12E41h
+          12E17h    12ADDh    12AC3h    12AA9h    12A8Fh    12A75h    12A58h    12A3Bh
+          12A1Eh    12A01h    129E4h    129C7h    129AAh    1298Dh    12970h    12953h
+          12936h    12919h    128FCh    128DFh    128C2h    128A5h    12888h    1286Bh
+          1284Eh    12831h    12814h    127F7h    127DAh    127BDh    127B4h    127AEh
+          12728h    1270Ah    126ECh    126CEh    12610h    125B9h    1259Dh    12586h
+          12563h    1254Ch    12535h    1251Eh    12507h    124FEh    124F8h    122A8h
+          12293h    12278h    1225Bh    1220Eh    121E0h    121B7h    12180h    1216Ah
+          1213Eh    12124h    12095h    12090h    12007h    12002h    11F92h    11F8Dh
+          11D01h    11BC2h    11B3Ch    1191Ch    118A4h    11767h    11761h    1174Ch
+          11746h    11731h    1172Bh    11716h    11710h    116FBh    116F5h    116E0h
+          116DAh    116C5h    116BFh    116AAh    116A4h    11691h    11686h    1166Fh
+          11664h    1164Ch    1163Ch    115D1h    114BCh    1147Ch    11439h    1142Ch
+          113BCh    113A4h    111D7h    11144h    1106Eh    10EEAh    10EC9h    10EA5h
+          10E81h    10E76h    10E67h    10E57h    10E39h    10D21h    10D11h    10CEEh
+          10CBCh    10BA2h    10B24h    1063Dh    1042Dh    103DFh    100A1h    10085h
+          1007Dh     FF9Fh     FF2Eh     FEE9h     FEAEh     FEA6h     FD87h     FD81h
+           FC19h     FB92h     FAC7h     FAACh     FA7Dh     FA6Ah     F9F2h     F9CAh
+           F91Eh     F906h     F873h     F805h     F765h     F4A9h     F493h     F455h
+           F415h     F365h     ED20h     E683h     E472h     E435h     E418h     E400h
+           E3EAh     E3A1h     E37Dh     E320h     E2B2h     E29Fh     E278h     E253h
+           E23Ch     E225h     E209h     E1F6h     E1CFh     E1AAh     E193h     DD17h
+           DD12h     DD08h     DD03h     DCF9h     DCF4h     DCEAh     DCE5h     DCDBh
+           DCD6h     DCCCh     DCC7h     DCBDh     DCB8h     DCAEh     DCA9h     DC9Fh
+           DC9Ah     DC90h     DC8Bh     DAABh     D9CEh     D951h     D608h     D602h
+           D2D2h     D2A6h     D22Eh     D20Ch     D1EAh     D1C8h     D0BBh     D03Ch
+           CFDBh     CF90h     CF63h     CE2Eh     CE28h     CDCAh     CDC4h     CD97h
+           CCFDh     CC5Dh     B648h     B1D8h     B1D2h     B0E2h     B0DCh     AEF0h
+           AEB8h     AEA0h     AE88h     ACEDh     AC52h     AC4Ch     AC31h     AC2Bh
+           AAFEh     AA34h     AA2Eh     A99Dh     A936h     A3AEh     A37Eh     A356h
+           A326h     A1C7h     A1A3h     A07Eh     9E9Ah     9E2Ah     9E24h     9B71h
+           9B6Bh     99DFh     99D9h     9946h     958Bh     91D8h     91D2h     9008h
+           9002h     82D1h     82A8h     8292h     8253h     820Bh     81ACh     7DE5h
+           7BE3h     79EAh     79A7h     7967h     7924h     7908h     78D4h     64E6h
+           64D9h     6329h     623Eh     6162h     6155h     604Ah     58D9h     54A8h
+           5480h     542Dh     53F4h     53E7h     53DFh     53D1h     53C5h     53BBh
+           53B1h     53A7h     538Ch     5386h     537Bh     5362h     535Ch     5339h
+           5333h     5328h     530Fh     5309h     52F9h     52E7h     52E1h     52CDh
+           52C8h     52B3h     52AEh     5299h     5291h     528Ah     5276h     5270h
+           525Ch     5256h     5242h     523Ch     5228h     5222h     520Ch     5205h
+           51FFh     51FAh     50A4h     503Dh     4F8Fh     3CC4h     3C97h     3A64h
+           39DAh     3993h     3962h     393Ah     2F36h     2EC1h     245Ah     240Ah
+           23EAh     2332h     2329h     2304h     22FEh     22F7h     1619h     160Ah
+           1603h     15FDh     15F7h     15EFh     15E7h     15C8h     15B1h     15A9h
+           159Ah     1581h     157Ah     1574h     1535h     1525h     14EFh     14DEh
+           14D7h     14CAh     14B0h     14A2h     1496h
+  entry IET_REL32_EXPORT "DrvTextAttrGet"
+    export DrvTextAttrGet                           @    1E1BBh
+  entry IET_REL32_EXPORT "KbdTypeMatic"
+    export KbdTypeMatic                             @    1208Bh
+  entry IET_REL32_EXPORT "KbdLEDsSet"
+    export KbdLEDsSet                               @    11F3Bh
+  entry IET_REL32_EXPORT "c32_eax"
+    export c32_eax                                  @    175F5h
+  entry IET_REL32_EXPORT "c32_ebx"
+    export c32_ebx                                  @    175F9h
+  entry IET_REL32_EXPORT "c32_ecx"
+    export c32_ecx                                  @    175FDh
+  entry IET_REL32_EXPORT "c32_edx"
+    export c32_edx                                  @    17601h
+  entry IET_REL32_EXPORT "KbdCmdSend"
+    export KbdCmdSend                               @    11E0Bh
+  entry IET_REL32_EXPORT "_D3_NORM_SQR"
+    export _D3_NORM_SQR                             @     2487h
+  entry IET_REL32_EXPORT "BreakUnlock"
+    export BreakUnlock                              @    11CBBh
+  entry IET_REL32_EXPORT "ATAInit"
+    export ATAInit                                  @    1B4D2h
+  entry IET_REL32_EXPORT "HashDefineLstAdd"
+    export HashDefineLstAdd                         @     9703h
+  entry IET_REL32_EXPORT "StrUtil"
+    export StrUtil                                  @     3914h
+  entry IET_REL32_EXPORT "LstMatch"
+    export LstMatch                                 @     369Ch
+  entry IET_REL32_EXPORT "ATAWBlks"
+    export ATAWBlks                                 @    1BFC2h
+  entry IET_REL32_EXPORT "ATABlkSel"
+    export ATABlkSel                                @    1A7B2h
+  entry IET_REL32_EXPORT "c32_esi"
+    export c32_esi                                  @    17605h
+  entry IET_REL32_EXPORT "SYS_CACHE_LINE_WIDTH"
+    export SYS_CACHE_LINE_WIDTH                     @     1800h
+  entry IET_REL32_EXPORT "IRQMsHard"
+    export IRQMsHard                                @    13B83h
+  entry IET_REL32_EXPORT "FramePtrSet"
+    export FramePtrSet                              @     97DBh
+  entry IET_REL32_EXPORT "_STRICMP"
+    export _STRICMP                                 @     3046h
+  entry IET_REL32_EXPORT "FloorI64"
+    export FloorI64                                 @     4920h
+  entry IET_REL32_EXPORT "KbdCmdFlush"
+    export KbdCmdFlush                              @    11EEBh
+  entry IET_REL32_EXPORT "PCIWriteU8"
+    export PCIWriteU8                               @    17911h
+  entry IET_REL32_EXPORT "DefinePrint"
+    export DefinePrint                              @     DC3Eh
+  entry IET_REL32_EXPORT "FifoI64Del"
+    export FifoI64Del                               @     88EAh
+  entry IET_REL32_EXPORT "Let2BlkDev"
+    export Let2BlkDev                               @    1D71Ah
+  entry IET_REL32_EXPORT "Mem64DevFree"
+    export Mem64DevFree                             @     6401h
+  entry IET_REL32_EXPORT "Mem32DevFree"
+    export Mem32DevFree                             @     62F9h
+  entry IET_REL32_EXPORT "ATARepEntry"
+    export ATARepEntry                              @    1C4EAh
+  entry IET_REL32_EXPORT "sys_ctrl_alt_flags"
+    export sys_ctrl_alt_flags                       @     1678h
+  entry IET_REL32_EXPORT "EdLite"
+    export EdLite                                   @    1890Ah
+  entry IET_REL32_EXPORT "FramePtr"
+    export FramePtr                                 @     975Bh
+  entry IET_REL32_EXPORT "SysTry"
+    export SysTry                                   @    11963h
+  entry IET_REL32_EXPORT "ScanCode2Char"
+    export ScanCode2Char                            @    1224Bh
+  entry IET_REL32_EXPORT "_D3_ADD"
+    export _D3_ADD                                  @     257Dh
+  entry IET_REL32_EXPORT "RCache"
+    export RCache                                   @    1A6AAh
+  entry IET_REL32_EXPORT "KbdMsgsQue"
+    export KbdMsgsQue                               @    1348Bh
+  entry IET_REL32_EXPORT "FifoI64Cnt"
+    export FifoI64Cnt                               @     8A12h
+  entry IET_REL32_EXPORT "sys_task_being_scrn_updated"
+    export sys_task_being_scrn_updated              @     3E68h
+  entry IET_REL32_EXPORT "RedSeaFileWrite"
+    export RedSeaFileWrite                          @    218A3h
+  entry IET_REL32_EXPORT "DVDImageRead"
+    export DVDImageRead                             @    27A48h
+  entry IET_REL32_EXPORT "MsHardSetPost"
+    export MsHardSetPost                            @    13F6Bh
+  entry IET_REL32_EXPORT "AMAlloc"
+    export AMAlloc                                  @     5D09h
+  entry IET_REL32_EXPORT "B"
+    export B                                        @    102B6h
+  entry IET_REL32_EXPORT "D"
+    export D                                        @     FA2Eh
+  entry IET_REL32_EXPORT "StrPrint"
+    export StrPrint                                 @     CB1Eh
+  entry IET_REL32_EXPORT "E"
+    export E                                        @    28FB8h
+  entry IET_REL32_EXPORT "_STRNCMP"
+    export _STRNCMP                                 @     3099h
+  entry IET_REL32_EXPORT "G"
+    export G                                        @    10396h
+  entry IET_REL32_EXPORT "ScaleIndent"
+    export ScaleIndent                              @     76E8h
+  entry IET_REL32_EXPORT "PressAKey"
+    export PressAKey                                @     7960h
+  entry IET_REL32_EXPORT "Char2ScanCode"
+    export Char2ScanCode                            @    12103h
+  entry IET_REL32_EXPORT "Mem32DevInit"
+    export Mem32DevInit                             @     6149h
+  entry IET_REL32_EXPORT "_BIT_FIELD_OR_U32"
+    export _BIT_FIELD_OR_U32                        @     2BB4h
+  entry IET_REL32_EXPORT "SPutChar"
+    export SPutChar                                 @     A784h
+  entry IET_REL32_EXPORT "TaskQueIns"
+    export TaskQueIns                               @     510Dh
+  entry IET_REL32_EXPORT "RedSeaFreeLstBuild"
+    export RedSeaFreeLstBuild                       @    201F3h
+  entry IET_REL32_EXPORT "S"
+    export S                                        @    105A6h
+  entry IET_REL32_EXPORT "FifoI64Ins"
+    export FifoI64Ins                               @     890Ah
+  entry IET_REL32_EXPORT "FloorU64"
+    export FloorU64                                 @     48A0h
+  entry IET_REL32_EXPORT "ScrnCast"
+    export ScrnCast                                 @     F14Eh
+  entry IET_REL32_EXPORT "FileNameAbs"
+    export FileNameAbs                              @    19B8Ah
+  entry IET_REL32_EXPORT "_HASH_REM_DEL"
+    export _HASH_REM_DEL                            @     7D7Ah
+  entry IET_REL32_EXPORT "TaskQueRem"
+    export TaskQueRem                               @     5165h
+  entry IET_REL32_EXPORT "RedSeaValidate"
+    export RedSeaValidate                           @    2049Bh
+  entry IET_REL32_EXPORT "FileNameTmpTxt"
+    export FileNameTmpTxt                           @    1A03Ah
+  entry IET_REL32_EXPORT "FifoI64New"
+    export FifoI64New                               @     8882h
+  entry IET_REL32_EXPORT "RandI32"
+    export RandI32                                  @     4AE8h
+  entry IET_REL32_EXPORT "RandI16"
+    export RandI16                                  @     49C8h
+  entry IET_REL32_EXPORT "PutFileLink"
+    export PutFileLink                              @    1FECBh
+  entry IET_REL32_EXPORT "BreakLock"
+    export BreakLock                                @    11C83h
+  entry IET_REL32_EXPORT "HPET"
+    export HPET                                     @     EC56h
+  entry IET_REL32_EXPORT "CORE0_32BIT_INIT"
+    export CORE0_32BIT_INIT                         @     22E0h
+  entry IET_REL32_EXPORT "CORE0_16BIT_INIT"
+    export CORE0_16BIT_INIT                         @     1480h
+  entry IET_REL32_EXPORT "Let2BlkDevType"
+    export Let2BlkDevType                           @    1DCBAh
+  entry IET_REL32_EXPORT "FifoI64Rem"
+    export FifoI64Rem                               @     8962h
+  entry IET_REL32_EXPORT "_D3_DIV"
+    export _D3_DIV                                  @     25FCh
+  entry IET_REL32_EXPORT "HomeSet"
+    export HomeSet                                  @    25810h
+  entry IET_REL32_EXPORT "FileNameChk"
+    export FileNameChk                              @    19F2Ah
+  entry IET_REL32_EXPORT "CtrlAltC"
+    export CtrlAltC                                 @    113B6h
+  entry IET_REL32_EXPORT "CallerRep"
+    export CallerRep                                @     F986h
+  entry IET_REL32_EXPORT "CtrlAltD"
+    export CtrlAltD                                 @    113CEh
+  entry IET_REL32_EXPORT "RandI64"
+    export RandI64                                  @     4C08h
+  entry IET_REL32_EXPORT "sys_os_version"
+    export sys_os_version                           @     3E90h
+  entry IET_REL32_EXPORT "CtrlAltF"
+    export CtrlAltF                                 @    11426h
+  entry IET_REL32_EXPORT "DrvFATBlkSet"
+    export DrvFATBlkSet                             @    1DB1Ah
+  entry IET_REL32_EXPORT "MPIntAll"
+    export MPIntAll                                 @    17F82h
+  entry IET_REL32_EXPORT "_FCLEX"
+    export _FCLEX                                   @     2A4Ch
+  entry IET_REL32_EXPORT "_D3_DOT"
+    export _D3_DOT                                  @     2552h
+  entry IET_REL32_EXPORT "SYS_FIND_PCIBIOS_SERVICE_DIR"
+    export SYS_FIND_PCIBIOS_SERVICE_DIR             @    1756Bh
+  entry IET_REL32_EXPORT "BCnt"
+    export BCnt                                     @     EB26h
+  entry IET_REL32_EXPORT "Mem64DevAlloc"
+    export Mem64DevAlloc                            @     6359h
+  entry IET_REL32_EXPORT "Mem32DevAlloc"
+    export Mem32DevAlloc                            @     6209h
+  entry IET_REL32_EXPORT "CtrlAltM"
+    export CtrlAltM                                 @    11456h
+  entry IET_REL32_EXPORT "DefineLstLoad"
+    export DefineLstLoad                            @     D986h
+  entry IET_REL32_EXPORT "CtrlAltN"
+    export CtrlAltN                                 @    11476h
+  entry IET_REL32_EXPORT "KeyDevAdd"
+    export KeyDevAdd                                @    1122Eh
+  entry IET_REL32_EXPORT "_D3_EQU"
+    export _D3_EQU                                  @     2662h
+  entry IET_REL32_EXPORT "CtrlAltT"
+    export CtrlAltT                                 @    1148Eh
+  entry IET_REL32_EXPORT "IsSilent"
+    export IsSilent                                 @     F336h
+  entry IET_REL32_EXPORT "PCIWriteU32"
+    export PCIWriteU32                              @    17A31h
+  entry IET_REL32_EXPORT "PCIWriteU16"
+    export PCIWriteU16                              @    179A1h
+  entry IET_REL32_EXPORT "CtrlAltV"
+    export CtrlAltV                                 @    114A6h
+  entry IET_REL32_EXPORT "_LXCHG_U8"
+    export _LXCHG_U8                                @     2C91h
+  entry IET_REL32_EXPORT "CtrlAltX"
+    export CtrlAltX                                 @    114B6h
+  entry IET_REL32_EXPORT "UserTaskCont"
+    export UserTaskCont                             @    15E93h
+  entry IET_REL32_EXPORT "FAT32MkDir"
+    export FAT32MkDir                               @    24D08h
+  entry IET_REL32_EXPORT "ClusBlkRead"
+    export ClusBlkRead                              @    1EA83h
+  entry IET_REL32_EXPORT "char_bmp_non_eol_white_space"
+    export char_bmp_non_eol_white_space             @     33FCh
+  entry IET_REL32_EXPORT "SYS_HASH_SINGLE_TABLE_FIND1"
+    export SYS_HASH_SINGLE_TABLE_FIND1              @     7C2Dh
+  entry IET_REL32_EXPORT "DayOfWeek"
+    export DayOfWeek                                @     A254h
+  entry IET_REL32_EXPORT "JobResGet"
+    export JobResGet                                @    1692Bh
+  entry IET_REL32_EXPORT "sys_heap_init_flag"
+    export sys_heap_init_flag                       @     1672h
+  entry IET_REL32_EXPORT "StrPrintHex"
+    export StrPrintHex                              @     2E8Eh
+  entry IET_REL32_EXPORT "_D3_ADD_EQU"
+    export _D3_ADD_EQU                              @     2685h
+  entry IET_REL32_EXPORT "SysBadFree"
+    export SysBadFree                               @     5473h
+  entry IET_REL32_EXPORT "MEM_512GIG_NUM"
+    export MEM_512GIG_NUM                           @     1650h
+  entry IET_REL32_EXPORT "Scale2Mem"
+    export Scale2Mem                                @     6549h
+  entry IET_REL32_EXPORT "RandU32"
+    export RandU32                                  @     4B78h
+  entry IET_REL32_EXPORT "RandU16"
+    export RandU16                                  @     4A58h
+  entry IET_REL32_EXPORT "_FLDCW"
+    export _FLDCW                                   @     2A2Ah
+  entry IET_REL32_EXPORT "str2color_lst"
+    export str2color_lst                            @     E320h
+  entry IET_REL32_EXPORT "local_time_offset"
+    export local_time_offset                        @     3E80h
+  entry IET_REL32_EXPORT "RedSeaFilesFind"
+    export RedSeaFilesFind                          @    219EBh
+  entry IET_REL32_EXPORT "ClusWrite"
+    export ClusWrite                                @    1EDB3h
+  entry IET_REL32_EXPORT "_D3_MUL"
+    export _D3_MUL                                  @     25D5h
+  entry IET_REL32_EXPORT "RandU64"
+    export RandU64                                  @     4C88h
+  entry IET_REL32_EXPORT "PostMsgWait"
+    export PostMsgWait                              @    16AA3h
+  entry IET_REL32_EXPORT "UndefinedDefine"
+    export UndefinedDefine                          @     DA9Eh
+  entry IET_REL32_EXPORT "ATAGetRes"
+    export ATAGetRes                                @    1AABAh
+  entry IET_REL32_EXPORT "ATAWaitDRQ"
+    export ATAWaitDRQ                               @    1A97Ah
+  entry IET_REL32_EXPORT "TaskInit"
+    export TaskInit                                 @    15733h
+  entry IET_REL32_EXPORT "LastDayOfYear"
+    export LastDayOfYear                            @     A55Ch
+  entry IET_REL32_EXPORT "SYS_IDLE_PT"
+    export SYS_IDLE_PT                              @     501Ah
+  entry IET_REL32_EXPORT "mp_cnt_initial"
+    export mp_cnt_initial                           @     17F0h
+  entry IET_REL32_EXPORT "Core0StartMP"
+    export Core0StartMP                             @    1834Ah
+  entry IET_REL32_EXPORT "_D3_SUB"
+    export _D3_SUB                                  @     25A9h
+  entry IET_REL32_EXPORT "AdamErr"
+    export AdamErr                                  @    171ABh
+  entry IET_REL32_EXPORT "sys_focus_task"
+    export sys_focus_task                           @     17D8h
+  entry IET_REL32_EXPORT "GridInit"
+    export GridInit                                 @    1353Bh
+  entry IET_REL32_EXPORT "FirstDayOfYear"
+    export FirstDayOfYear                           @     A514h
+  entry IET_REL32_EXPORT "COREAP_16BIT_INIT"
+    export COREAP_16BIT_INIT                        @    17B80h
+  entry IET_REL32_EXPORT "Dbg2"
+    export Dbg2                                     @    10ACEh
+  entry IET_REL32_EXPORT "HashSrcFileSet"
+    export HashSrcFileSet                           @     9543h
+  entry IET_REL32_EXPORT "BlkPoolInit"
+    export BlkPoolInit                              @     5853h
+  entry IET_REL32_EXPORT "ProgressBarsRst"
+    export ProgressBarsRst                          @     F486h
+  entry IET_REL32_EXPORT "sys_boot_blk"
+    export sys_boot_blk                             @        8h
+  entry IET_REL32_EXPORT "AdamLog"
+    export AdamLog                                  @    1712Bh
+  entry IET_REL32_EXPORT "TaskStkNew"
+    export TaskStkNew                               @    15593h
+  entry IET_REL32_EXPORT "HashTableDel"
+    export HashTableDel                             @     9383h
+  entry IET_REL32_EXPORT "char_bmp_zero_tab_cr_nl_cursor"
+    export char_bmp_zero_tab_cr_nl_cursor           @     347Ch
+  entry IET_REL32_EXPORT "B2"
+    export B2                                       @    10316h
+  entry IET_REL32_EXPORT "_STRMATCH"
+    export _STRMATCH                                @     3137h
+  entry IET_REL32_EXPORT "MEM_HEAP_BASE"
+    export MEM_HEAP_BASE                            @     1620h
+  entry IET_REL32_EXPORT "_CPUID"
+    export _CPUID                                   @     2D37h
+  entry IET_REL32_EXPORT "_LBEQU"
+    export _LBEQU                                   @     2B34h
+  entry IET_REL32_EXPORT "Caller"
+    export Caller                                   @     F676h
+  entry IET_REL32_EXPORT "INT_MP_CRASH_ADDR"
+    export INT_MP_CRASH_ADDR                        @     7DE5h
+  entry IET_REL32_EXPORT "CTRL_KEY_SCAN_DECODE_TABLE"
+    export CTRL_KEY_SCAN_DECODE_TABLE               @    11DBBh
+  entry IET_REL32_EXPORT "KeyDevRem"
+    export KeyDevRem                                @    11206h
+  entry IET_REL32_EXPORT "G2"
+    export G2                                       @    10546h
+  entry IET_REL32_EXPORT "TSSNew"
+    export TSSNew                                   @    17C6Ah
+  entry IET_REL32_EXPORT "SYS_PROGRESS1_DESC"
+    export SYS_PROGRESS1_DESC                       @     16B8h
+  entry IET_REL32_EXPORT "FSetClus"
+    export FSetClus                                 @    26A10h
+  entry IET_REL32_EXPORT "_LOG10"
+    export _LOG10                                   @     29E8h
+  entry IET_REL32_EXPORT "Adam"
+    export Adam                                     @    17083h
+  entry IET_REL32_EXPORT "set_bits_table"
+    export set_bits_table                           @     3E78h
+  entry IET_REL32_EXPORT "rev_bits_table"
+    export rev_bits_table                           @     3E70h
+  entry IET_REL32_EXPORT "JobCtrlInit"
+    export JobCtrlInit                              @    163F3h
+  entry IET_REL32_EXPORT "KDInputFilterPutKey"
+    export KDInputFilterPutKey                      @    1131Eh
+  entry IET_REL32_EXPORT "GetOutOfDollar"
+    export GetOutOfDollar                           @     7860h
+  entry IET_REL32_EXPORT "DbgHelp"
+    export DbgHelp                                  @    10636h
+  entry IET_REL32_EXPORT "_FLOOR"
+    export _FLOOR                                   @     2832h
+  entry IET_REL32_EXPORT "char_bmp_alpha_numeric"
+    export char_bmp_alpha_numeric                   @     323Ch
+  entry IET_REL32_EXPORT "Str2Date"
+    export Str2Date                                 @     D16Eh
+  entry IET_REL32_EXPORT "ChkPtr"
+    export ChkPtr                                   @     F4CEh
+  entry IET_REL32_EXPORT "TaskWait"
+    export TaskWait                                 @    169ABh
+  entry IET_REL32_EXPORT "SYS_MEM_INIT_VAL"
+    export SYS_MEM_INIT_VAL                         @     1671h
+  entry IET_REL32_EXPORT "SysGetI64"
+    export SysGetI64                                @    1F793h
+  entry IET_REL32_EXPORT "SYS_BOOT_PATCH_TABLE_BASE"
+    export SYS_BOOT_PATCH_TABLE_BASE                @        Ch
+  entry IET_REL32_EXPORT "ClusNumNext"
+    export ClusNumNext                              @    1E8FBh
+  entry IET_REL32_EXPORT "Beep"
+    export Beep                                     @     F246h
+  entry IET_REL32_EXPORT "_STRNICMP"
+    export _STRNICMP                                @     30DBh
+  entry IET_REL32_EXPORT "JobQueDel"
+    export JobQueDel                                @    163B3h
+  entry IET_REL32_EXPORT "_MEMSET_I64"
+    export _MEMSET_I64                              @     2AA6h
+  entry IET_REL32_EXPORT "sys_gdt"
+    export sys_gdt                                  @      400h
+  entry IET_REL32_EXPORT "SYS_PROGRESS2_DESC"
+    export SYS_PROGRESS2_DESC                       @     1708h
+  entry IET_REL32_EXPORT "SYS_STAFF_MODE_FLAG"
+    export SYS_STAFF_MODE_FLAG                      @     1676h
+  entry IET_REL32_EXPORT "BlkDevLockFwdingSet"
+    export BlkDevLockFwdingSet                      @    1F243h
+  entry IET_REL32_EXPORT "Suspend"
+    export Suspend                                  @    15503h
+  entry IET_REL32_EXPORT "FunSegFind"
+    export FunSegFind                               @    28560h
+  entry IET_REL32_EXPORT "Define"
+    export Define                                   @     DB06h
+  entry IET_REL32_EXPORT "FAT32Fmt"
+    export FAT32Fmt                                 @    220FBh
+  entry IET_REL32_EXPORT "SrvCmdLine"
+    export SrvCmdLine                               @    15F6Bh
+  entry IET_REL32_EXPORT "HashTableNew"
+    export HashTableNew                             @     924Bh
+  entry IET_REL32_EXPORT "_ARG"
+    export _ARG                                     @     27B1h
+  entry IET_REL32_EXPORT "TaskText"
+    export TaskText                                 @    1656Bh
+  entry IET_REL32_EXPORT "Da"
+    export Da                                       @     FB6Eh
+  entry IET_REL32_EXPORT "Cd"
+    export Cd                                       @    25848h
+  entry IET_REL32_EXPORT "SrcEdLink"
+    export SrcEdLink                                @    28E80h
+  entry IET_REL32_EXPORT "_LXCHG_I64"
+    export _LXCHG_I64                               @     2C56h
+  entry IET_REL32_EXPORT "_TASK_END_NOW"
+    export _TASK_END_NOW                            @     4F6Dh
+  entry IET_REL32_EXPORT "_REP_OUT_U8"
+    export _REP_OUT_U8                              @     2D20h
+  entry IET_REL32_EXPORT "sys_boot_src"
+    export sys_boot_src                             @        4h
+  entry IET_REL32_EXPORT "progress1_t0"
+    export progress1_t0                             @     16A8h
+  entry IET_REL32_EXPORT "Pow10I64"
+    export Pow10I64                                 @     4858h
+  entry IET_REL32_EXPORT "char_bmp_alpha_numeric_no_at"
+    export char_bmp_alpha_numeric_no_at             @     327Ch
+  entry IET_REL32_EXPORT "Dm"
+    export Dm                                       @     FB4Eh
+  entry IET_REL32_EXPORT "HashFunSegFind"
+    export HashFunSegFind                           @    28430h
+  entry IET_REL32_EXPORT "Dr"
+    export Dr                                       @    1004Eh
+  entry IET_REL32_EXPORT "FBlkRead"
+    export FBlkRead                                 @    26B38h
+  entry IET_REL32_EXPORT "FilesFind2"
+    export FilesFind2                               @    251F8h
+  entry IET_REL32_EXPORT "TaskKillDying"
+    export TaskKillDying                            @    162F3h
+  entry IET_REL32_EXPORT "scan_code_map"
+    export scan_code_map                            @    122D3h
+  entry IET_REL32_EXPORT "progress2_t0"
+    export progress2_t0                             @     16F8h
+  entry IET_REL32_EXPORT "UncachedAliasAlloc"
+    export UncachedAliasAlloc                       @     6451h
+  entry IET_REL32_EXPORT "DirTreeDel"
+    export DirTreeDel                               @    1FBA3h
+  entry IET_REL32_EXPORT "In"
+    export In                                       @    17463h
+  entry IET_REL32_EXPORT "DbgMode"
+    export DbgMode                                  @     F446h
+  entry IET_REL32_EXPORT "SYS_PROGRESS3_DESC"
+    export SYS_PROGRESS3_DESC                       @     1758h
+  entry IET_REL32_EXPORT "DrvModelNum"
+    export DrvModelNum                              @    1E12Ah
+  entry IET_REL32_EXPORT "IsSysDbg"
+    export IsSysDbg                                 @     F37Eh
+  entry IET_REL32_EXPORT "progress3_t0"
+    export progress3_t0                             @     1748h
+  entry IET_REL32_EXPORT "_TEST_EXCEPT"
+    export _TEST_EXCEPT                             @    1181Eh
+  entry IET_REL32_EXPORT "_FSTCW"
+    export _FSTCW                                   @     2A35h
+  entry IET_REL32_EXPORT "ScanFlags"
+    export ScanFlags                                @     7A20h
+  entry IET_REL32_EXPORT "INT_WAKE"
+    export INT_WAKE                                 @     7DE9h
+  entry IET_REL32_EXPORT "GetS"
+    export GetS                                     @    14D2Bh
+  entry IET_REL32_EXPORT "_MEMSET_U32"
+    export _MEMSET_U32                              @     2A8Ah
+  entry IET_REL32_EXPORT "_MEMSET_U16"
+    export _MEMSET_U16                              @     2A6Dh
+  entry IET_REL32_EXPORT "DirCur"
+    export DirCur                                   @    1A07Ah
+  entry IET_REL32_EXPORT "SYS_MP_CNT_LOCK"
+    export SYS_MP_CNT_LOCK                          @     17F8h
+  entry IET_REL32_EXPORT "SYS_COMPILE_TIME"
+    export SYS_COMPILE_TIME                         @       14h
+  entry IET_REL32_EXPORT "BptR"
+    export BptR                                     @    1022Eh
+  entry IET_REL32_EXPORT "BptS"
+    export BptS                                     @    10196h
+  entry IET_REL32_EXPORT "_HASH_BUCKET_FIND"
+    export _HASH_BUCKET_FIND                        @     7D12h
+  entry IET_REL32_EXPORT "_MHEAP_CTRL"
+    export _MHEAP_CTRL                              @     5CE6h
+  entry IET_REL32_EXPORT "progress4_t0"
+    export progress4_t0                             @     1798h
+  entry IET_REL32_EXPORT "ATAMount"
+    export ATAMount                                 @    1CD7Ah
+  entry IET_REL32_EXPORT "FifoI64Peek"
+    export FifoI64Peek                              @     89B2h
+  entry IET_REL32_EXPORT "_EXP"
+    export _EXP                                     @     2996h
+  entry IET_REL32_EXPORT "SYS_HASH_FIND1"
+    export SYS_HASH_FIND1                           @     7C7Bh
+  entry IET_REL32_EXPORT "_D3_DIST"
+    export _D3_DIST                                 @     24ACh
+  entry IET_REL32_EXPORT "ScanKey"
+    export ScanKey                                  @    14A5Bh
+  entry IET_REL32_EXPORT "InFile"
+    export InFile                                   @    173F3h
+  entry IET_REL32_EXPORT "ATARepExitAllApplications"
+    export ATARepExitAllApplications                @    1C6EAh
+  entry IET_REL32_EXPORT "CeilI64"
+    export CeilI64                                  @     4970h
+  entry IET_REL32_EXPORT "ATAProbe"
+    export ATAProbe                                 @    1B6EAh
+  entry IET_REL32_EXPORT "_LXCHG_U16"
+    export _LXCHG_U16                               @     2C7Ch
+  entry IET_REL32_EXPORT "_LXCHG_U32"
+    export _LXCHG_U32                               @     2C6Ah
+  entry IET_REL32_EXPORT "SYS_PROGRESS1"
+    export SYS_PROGRESS1                            @     1698h
+  entry IET_REL32_EXPORT "MPAPICInit"
+    export MPAPICInit                               @    18012h
+  entry IET_REL32_EXPORT "SYS_PROGRESS2"
+    export SYS_PROGRESS2                            @     16E8h
+  entry IET_REL32_EXPORT "SYS_PROGRESS3"
+    export SYS_PROGRESS3                            @     1738h
+  entry IET_REL32_EXPORT "DirNew"
+    export DirNew                                   @    1FABBh
+  entry IET_REL32_EXPORT "SYS_PROGRESS4"
+    export SYS_PROGRESS4                            @     1788h
+  entry IET_REL32_EXPORT "FAT32DirNew"
+    export FAT32DirNew                              @    238C0h
+  entry IET_REL32_EXPORT "LinkedLstDel"
+    export LinkedLstDel                             @     8302h
+  entry IET_REL32_EXPORT "Help"
+    export Help                                     @     79D0h
+  entry IET_REL32_EXPORT "_D3_COPY"
+    export _D3_COPY                                 @     263Ch
+  entry IET_REL32_EXPORT "PUT_STR"
+    export PUT_STR                                  @     2FC9h
+  entry IET_REL32_EXPORT "_RET"
+    export _RET                                     @     2E6Fh
+  entry IET_REL32_EXPORT "BIOSTotalMem"
+    export BIOSTotalMem                             @     64C9h
+  entry IET_REL32_EXPORT "ScanMsg"
+    export ScanMsg                                  @    1484Bh
+  entry IET_REL32_EXPORT "SYS_PROGRESS4_DESC"
+    export SYS_PROGRESS4_DESC                       @     17A8h
+  entry IET_REL32_EXPORT "SYS_HEAP_DBG_FLAG"
+    export SYS_HEAP_DBG_FLAG                        @     1677h
+  entry IET_REL32_EXPORT "ac"
+    export ac                                       @     3F10h
+  entry IET_REL32_EXPORT "_FSTSW"
+    export _FSTSW                                   @     2A47h
+  entry IET_REL32_EXPORT "Char2KeyName"
+    export Char2KeyName                             @    124D3h
+  entry IET_REL32_EXPORT "blkdev"
+    export blkdev                                   @     3FF8h
+  entry IET_REL32_EXPORT "progress1_tf"
+    export progress1_tf                             @     16B0h
+  entry IET_REL32_EXPORT "mem_mapped_space"
+    export mem_mapped_space                         @     1638h
+  entry IET_REL32_EXPORT "SysDefinesLoad"
+    export SysDefinesLoad                           @     DC86h
+  entry IET_REL32_EXPORT "MEM_MAPPED_SPACE"
+    export MEM_MAPPED_SPACE                         @     1638h
+  entry IET_REL32_EXPORT "_POW"
+    export _POW                                     @     292Fh
+  entry IET_REL32_EXPORT "drv_text_attr"
+    export drv_text_attr                            @    1E1B8h
+  entry IET_REL32_EXPORT "PUT_HEX_U8"
+    export PUT_HEX_U8                               @     2F99h
+  entry IET_REL32_EXPORT "CPUStructInit"
+    export CPUStructInit                            @    17E3Ah
+  entry IET_REL32_EXPORT "progress2_tf"
+    export progress2_tf                             @     1700h
+  entry IET_REL32_EXPORT "Str2ColorU32"
+    export Str2ColorU32                             @     E506h
+  entry IET_REL32_EXPORT "Str2ColorU16"
+    export Str2ColorU16                             @     E32Eh
+  entry IET_REL32_EXPORT "LinkedLstCnt"
+    export LinkedLstCnt                             @     8372h
+  entry IET_REL32_EXPORT "Tabs2Spaces"
+    export Tabs2Spaces                              @     75C8h
+  entry IET_REL32_EXPORT "SYS_GDT_PTR"
+    export SYS_GDT_PTR                              @      3ECh
+  entry IET_REL32_EXPORT "WinDerivedValsUpdate"
+    export WinDerivedValsUpdate                     @     E8EEh
+  entry IET_REL32_EXPORT "fp_update_ctrls"
+    export fp_update_ctrls                          @     47C8h
+  entry IET_REL32_EXPORT "IntDivZero"
+    export IntDivZero                               @     80AAh
+  entry IET_REL32_EXPORT "MemPagFree"
+    export MemPagFree                               @     561Bh
+  entry IET_REL32_EXPORT "_SQR"
+    export _SQR                                     @     2763h
+  entry IET_REL32_EXPORT "progress3_tf"
+    export progress3_tf                             @     1750h
+  entry IET_REL32_EXPORT "RedSeaFileFind"
+    export RedSeaFileFind                           @    207D3h
+  entry IET_REL32_EXPORT "SYS_PCIBIOS_SERVICE_DIR"
+    export SYS_PCIBIOS_SERVICE_DIR                  @    17563h
+  entry IET_REL32_EXPORT "tS"
+    export tS                                       @     EDCEh
+  entry IET_REL32_EXPORT "ArcDetermineCompressionType"
+    export ArcDetermineCompressionType              @     8B23h
+  entry IET_REL32_EXPORT "IntInit1"
+    export IntInit1                                 @     81D2h
+  entry IET_REL32_EXPORT "IntInit2"
+    export IntInit2                                 @     8242h
+  entry IET_REL32_EXPORT "GetKey"
+    export GetKey                                   @    14AF3h
+  entry IET_REL32_EXPORT "Kill"
+    export Kill                                     @    1543Bh
+  entry IET_REL32_EXPORT "SingleUser"
+    export SingleUser                               @     F406h
+  entry IET_REL32_EXPORT "Date2Struct"
+    export Date2Struct                              @     A29Ch
+  entry IET_REL32_EXPORT "progress4_tf"
+    export progress4_tf                             @     17A0h
+  entry IET_REL32_EXPORT "Fault2"
+    export Fault2                                   @    10D8Eh
+  entry IET_REL32_EXPORT "Load"
+    export Load                                     @     9E7Bh
+  entry IET_REL32_EXPORT "DeathWait"
+    export DeathWait                                @    153DBh
+  entry IET_REL32_EXPORT "Fault3"
+    export Fault3                                   @    10C0Eh
+  entry IET_REL32_EXPORT "Busy"
+    export Busy                                     @     EE86h
+  entry IET_REL32_EXPORT "CompressBuf"
+    export CompressBuf                              @     907Bh
+  entry IET_REL32_EXPORT "CeilU64"
+    export CeilU64                                  @     48C8h
+  entry IET_REL32_EXPORT "sys_neg_pows_lst"
+    export sys_neg_pows_lst                         @     AEF0h
+  entry IET_REL32_EXPORT "sys_pos_pows_lst"
+    export sys_pos_pows_lst                         @     AEB8h
+  entry IET_REL32_EXPORT "MStrPrint"
+    export MStrPrint                                @     CBC6h
+  entry IET_REL32_EXPORT "SrcFileName"
+    export SrcFileName                              @    28D48h
+  entry IET_REL32_EXPORT "RawD"
+    export RawD                                     @     FC66h
+  entry IET_REL32_EXPORT "IsSingleUser"
+    export IsSingleUser                             @     F42Eh
+  entry IET_REL32_EXPORT "adam_task"
+    export adam_task                                @     3E50h
+  entry IET_REL32_EXPORT "_POW10"
+    export _POW10                                   @     2944h
+  entry IET_REL32_EXPORT "MsHardDrvrInstall"
+    export MsHardDrvrInstall                        @    143BBh
+  entry IET_REL32_EXPORT "KbdHndlr"
+    export KbdHndlr                                 @    1335Bh
+  entry IET_REL32_EXPORT "DskChg"
+    export DskChg                                   @    1DEEAh
+  entry IET_REL32_EXPORT "ms"
+    export ms                                       @     4348h
+  entry IET_REL32_EXPORT "Exit"
+    export Exit                                     @    1521Bh
+  entry IET_REL32_EXPORT "CopySingleZ"
+    export CopySingleZ                              @    27028h
+  entry IET_REL32_EXPORT "GetMsg"
+    export GetMsg                                   @    1499Bh
+  entry IET_REL32_EXPORT "BlkWrite"
+    export BlkWrite                                 @    1E733h
+  entry IET_REL32_EXPORT "Rand"
+    export Rand                                     @     4D08h
+  entry IET_REL32_EXPORT "ArcCompressBuf"
+    export ArcCompressBuf                           @     8B5Bh
+  entry IET_REL32_EXPORT "ToFileLine"
+    export ToFileLine                               @    192C2h
+  entry IET_REL32_EXPORT "scrncast"
+    export scrncast                                 @     4720h
+  entry IET_REL32_EXPORT "IsDotC"
+    export IsDotC                                   @    19572h
+  entry IET_REL32_EXPORT "HashTablePurge"
+    export HashTablePurge                           @     93EBh
+  entry IET_REL32_EXPORT "Seed"
+    export Seed                                     @     4DA8h
+  entry IET_REL32_EXPORT "DrvsRelease"
+    export DrvsRelease                              @    1D80Ah
+  entry IET_REL32_EXPORT "BlkDevNextFreeSlot"
+    export BlkDevNextFreeSlot                       @    1D59Ah
+  entry IET_REL32_EXPORT "ATAPIWaitReady"
+    export ATAPIWaitReady                           @    1B5A2h
+  entry IET_REL32_EXPORT "DskCacheQueIns"
+    export DskCacheQueIns                           @    1A4AAh
+  entry IET_REL32_EXPORT "RedSeaAllocClus"
+    export RedSeaAllocClus                          @    20E73h
+  entry IET_REL32_EXPORT "sys_semas"
+    export sys_semas                                @     1860h
+  entry IET_REL32_EXPORT "InputFilterTask"
+    export InputFilterTask                          @    146DBh
+  entry IET_REL32_EXPORT "SYS_HASH_STR"
+    export SYS_HASH_STR                             @     7C08h
+  entry IET_REL32_EXPORT "FATNameTo"
+    export FATNameTo                                @    224E3h
+  entry IET_REL32_EXPORT "EndianI64"
+    export EndianI64                                @     EAD6h
+  entry IET_REL32_EXPORT "_MSIZE"
+    export _MSIZE                                   @     5C9Ch
+  entry IET_REL32_EXPORT "DskCacheInvalidate2"
+    export DskCacheInvalidate2                      @    1A602h
+  entry IET_REL32_EXPORT "progress1_desc"
+    export progress1_desc                           @     16B8h
+  entry IET_REL32_EXPORT "WinInside"
+    export WinInside                                @     E9C6h
+  entry IET_REL32_EXPORT "MsHardSet"
+    export MsHardSet                                @    142ABh
+  entry IET_REL32_EXPORT "DskCacheQueRem"
+    export DskCacheQueRem                           @    1A46Ah
+  entry IET_REL32_EXPORT "_D3_NORM"
+    export _D3_NORM                                 @     2460h
+  entry IET_REL32_EXPORT "IsDotZ"
+    export IsDotZ                                   @    1950Ah
+  entry IET_REL32_EXPORT "HashGenericAdd"
+    export HashGenericAdd                           @     94BBh
+  entry IET_REL32_EXPORT "_TASK_CONTEXT_RESTORE"
+    export _TASK_CONTEXT_RESTORE                    @     4ECDh
+  entry IET_REL32_EXPORT "RedSeaFileRead"
+    export RedSeaFileRead                           @    20A13h
+  entry IET_REL32_EXPORT "mem_page_size"
+    export mem_page_size                            @     1630h
+  entry IET_REL32_EXPORT "cpu_structs"
+    export cpu_structs                              @     17E0h
+  entry IET_REL32_EXPORT "MsHardGetType"
+    export MsHardGetType                            @    13BDBh
+  entry IET_REL32_EXPORT "GetStr"
+    export GetStr                                   @    14CABh
+  entry IET_REL32_EXPORT "ExpandBuf"
+    export ExpandBuf                                @     8F93h
+  entry IET_REL32_EXPORT "BootDVDProbe"
+    export BootDVDProbe                             @    1C0AAh
+  entry IET_REL32_EXPORT "ToggleZorNotZ"
+    export ToggleZorNotZ                            @    19FCAh
+  entry IET_REL32_EXPORT "SysGlblsInit"
+    export SysGlblsInit                             @    290B8h
+  entry IET_REL32_EXPORT "PutSrcLink"
+    export PutSrcLink                               @    28F18h
+  entry IET_REL32_EXPORT "JobRunOne"
+    export JobRunOne                                @    16B23h
+  entry IET_REL32_EXPORT "SYS_SEMAS"
+    export SYS_SEMAS                                @     1860h
+  entry IET_REL32_EXPORT "BirthWait"
+    export BirthWait                                @    15393h
+  entry IET_REL32_EXPORT "MsHardRst"
+    export MsHardRst                                @    13C1Bh
+  entry IET_REL32_EXPORT "SYS_VAR_INIT_FLAG"
+    export SYS_VAR_INIT_FLAG                        @     1674h
+  entry IET_REL32_EXPORT "SYS_MEM_INIT_FLAG"
+    export SYS_MEM_INIT_FLAG                        @     1670h
+  entry IET_REL32_EXPORT "_TAKE_EXCEPT"
+    export _TAKE_EXCEPT                             @    11855h
+  entry IET_REL32_EXPORT "DefineCnt"
+    export DefineCnt                                @     DBBEh
+  entry IET_REL32_EXPORT "RedSeaCd"
+    export RedSeaCd                                 @    20B7Bh
+  entry IET_REL32_EXPORT "JobDel"
+    export JobDel                                   @    16393h
+  entry IET_REL32_EXPORT "SysGrInit"
+    export SysGrInit                                @    29328h
+  entry IET_REL32_EXPORT "ArcCtrlDel"
+    export ArcCtrlDel                               @     8F73h
+  entry IET_REL32_EXPORT "SysBadMAlloc"
+    export SysBadMAlloc                             @     549Bh
+  entry IET_REL32_EXPORT "blkdev_text_attr"
+    export blkdev_text_attr                         @    1E1B2h
+  entry IET_REL32_EXPORT "Mute"
+    export Mute                                     @     F2A6h
+  entry IET_REL32_EXPORT "INT_FAULT"
+    export INT_FAULT                                @     7E8Fh
+  entry IET_REL32_EXPORT "progress2_desc"
+    export progress2_desc                           @     1708h
+  entry IET_REL32_EXPORT "KbdMsRst"
+    export KbdMsRst                                 @    14373h
+  entry IET_REL32_EXPORT "KbdBuildSC"
+    export KbdBuildSC                               @    12D6Bh
+  entry IET_REL32_EXPORT "PutDirLink"
+    export PutDirLink                               @    200B3h
+  entry IET_REL32_EXPORT "EndianU32"
+    export EndianU32                                @     EA9Eh
+  entry IET_REL32_EXPORT "EndianU16"
+    export EndianU16                                @     EA76h
+  entry IET_REL32_EXPORT "MemPagTaskFree"
+    export MemPagTaskFree                           @     578Bh
+  entry IET_REL32_EXPORT "sys_pci_busses"
+    export sys_pci_busses                           @      3F6h
+  entry IET_REL32_EXPORT "PutS"
+    export PutS                                     @    110D6h
+  entry IET_REL32_EXPORT "StrPrintJoin"
+    export StrPrintJoin                             @     AF26h
+  entry IET_REL32_EXPORT "_SYS_HLT"
+    export _SYS_HLT                                 @     2E8Ah
+  entry IET_REL32_EXPORT "DrvDel"
+    export DrvDel                                   @    1D972h
+  entry IET_REL32_EXPORT "ATAPIReadBlks2"
+    export ATAPIReadBlks2                           @    1B762h
+  entry IET_REL32_EXPORT "_D3_UNIT"
+    export _D3_UNIT                                 @     271Bh
+  entry IET_REL32_EXPORT "_STRIMATCH"
+    export _STRIMATCH                               @     318Ch
+  entry IET_REL32_EXPORT "DrvChk"
+    export DrvChk                                   @    1DBF2h
+  entry IET_REL32_EXPORT "GetBaseUnit"
+    export GetBaseUnit                              @    1F7CBh
+  entry IET_REL32_EXPORT "FixSet"
+    export FixSet                                   @    19392h
+  entry IET_REL32_EXPORT "ms_hard"
+    export ms_hard                                  @     4610h
+  entry IET_REL32_EXPORT "mem_boot_base"
+    export mem_boot_base                            @       1Ch
+  entry IET_REL32_EXPORT "throw"
+    export throw                                    @    11A3Bh
+  entry IET_REL32_EXPORT "PutExcept"
+    export PutExcept                                @    11893h
+  entry IET_REL32_EXPORT "char_bmp_printable"
+    export char_bmp_printable                       @     353Ch
+  entry IET_REL32_EXPORT "JobResScan"
+    export JobResScan                               @    16863h
+  entry IET_REL32_EXPORT "_HASH_SINGLE_TABLE_FIND"
+    export _HASH_SINGLE_TABLE_FIND                  @     7CECh
+  entry IET_REL32_EXPORT "_D3_ZERO"
+    export _D3_ZERO                                 @     2623h
+  entry IET_REL32_EXPORT "Str2F64"
+    export Str2F64                                  @     CF36h
+  entry IET_REL32_EXPORT "_YIELD"
+    export _YIELD                                   @     4F7Ch
+  entry IET_REL32_EXPORT "progress3_desc"
+    export progress3_desc                           @     1758h
+  entry IET_REL32_EXPORT "_ROUND"
+    export _ROUND                                   @     27D0h
+  entry IET_REL32_EXPORT "SYS_HASH_BUCKET_FIND"
+    export SYS_HASH_BUCKET_FIND                     @     7CA4h
+  entry IET_REL32_EXPORT "User"
+    export User                                     @    16003h
+  entry IET_REL32_EXPORT "DirEntryDel"
+    export DirEntryDel                              @    1FB4Bh
+  entry IET_REL32_EXPORT "ATACmd"
+    export ATACmd                                   @    1AA7Ah
+  entry IET_REL32_EXPORT "Str2I64"
+    export Str2I64                                  @     CD4Eh
+  entry IET_REL32_EXPORT "DrvMap"
+    export DrvMap                                   @    1DF4Ah
+  entry IET_REL32_EXPORT "NowDateTimeStruct"
+    export NowDateTimeStruct                        @     A5F4h
+  entry IET_REL32_EXPORT "YorN"
+    export YorN                                     @     78C8h
+  entry IET_REL32_EXPORT "SYS_CPU_STRUCTS"
+    export SYS_CPU_STRUCTS                          @     17E0h
+  entry IET_REL32_EXPORT "ArcCtrlNew"
+    export ArcCtrlNew                               @     8EB3h
+  entry IET_REL32_EXPORT "DefineSub"
+    export DefineSub                                @     DB4Eh
+  entry IET_REL32_EXPORT "Name2ParentDirClus"
+    export Name2ParentDirClus                       @    1F073h
+  entry IET_REL32_EXPORT "MPInt"
+    export MPInt                                    @    17EDAh
+  entry IET_REL32_EXPORT "PopUpPrint"
+    export PopUpPrint                               @    17033h
+  entry IET_REL32_EXPORT "IntEntryGet"
+    export IntEntryGet                              @     7F32h
+  entry IET_REL32_EXPORT "ms_grid"
+    export ms_grid                                  @     42F8h
+  entry IET_REL32_EXPORT "KeyDevInit"
+    export KeyDevInit                               @    115EEh
+  entry IET_REL32_EXPORT "SYS_BOOT_BLK"
+    export SYS_BOOT_BLK                             @        8h
+  entry IET_REL32_EXPORT "progress4_desc"
+    export progress4_desc                           @     17A8h
+  entry IET_REL32_EXPORT "DrvFATBlkClean"
+    export DrvFATBlkClean                           @    1DA6Ah
+  entry IET_REL32_EXPORT "PCIReadU8"
+    export PCIReadU8                                @    17731h
+  entry IET_REL32_EXPORT "ms_last"
+    export ms_last                                  @     43F0h
+  entry IET_REL32_EXPORT "PrintWarn"
+    export PrintWarn                                @     CCAEh
+  entry IET_REL32_EXPORT "LoadOneImport"
+    export LoadOneImport                            @     98A3h
+  entry IET_REL32_EXPORT "FOpen"
+    export FOpen                                    @    266B0h
+  entry IET_REL32_EXPORT "sys_var_init_val"
+    export sys_var_init_val                         @     1675h
+  entry IET_REL32_EXPORT "DrvRep"
+    export DrvRep                                   @    1E233h
+  entry IET_REL32_EXPORT "BlkDevUnlock"
+    export BlkDevUnlock                             @    1CFBAh
+  entry IET_REL32_EXPORT "IntMPCrash"
+    export IntMPCrash                               @    186A2h
+  entry IET_REL32_EXPORT "JobQue"
+    export JobQue                                   @    18152h
+  entry IET_REL32_EXPORT "TSSBusy"
+    export TSSBusy                                  @    17C32h
+  entry IET_REL32_EXPORT "DrvTypeSet"
+    export DrvTypeSet                               @    280B8h
+  entry IET_REL32_EXPORT "DirNameAbs"
+    export DirNameAbs                               @    19882h
+  entry IET_REL32_EXPORT "DrvFATBlkAlloc"
+    export DrvFATBlkAlloc                           @    1DA0Ah
+  entry IET_REL32_EXPORT "WildMatch"
+    export WildMatch                                @     3D04h
+  entry IET_REL32_EXPORT "IsMute"
+    export IsMute                                   @     F2F6h
+  entry IET_REL32_EXPORT "DVDImageWrite"
+    export DVDImageWrite                            @    27CF8h
+  entry IET_REL32_EXPORT "HashTypeNum"
+    export HashTypeNum                              @     918Bh
+  entry IET_REL32_EXPORT "KMain"
+    export KMain                                    @    295B8h
+  entry IET_REL32_EXPORT "sys_cache_line_width"
+    export sys_cache_line_width                     @     1800h
+  entry IET_REL32_EXPORT "XTalkStr"
+    export XTalkStr                                 @    174CBh
+  entry IET_REL32_EXPORT "ATAReadNativeMax"
+    export ATAReadNativeMax                         @    1AFA2h
+  entry IET_REL32_EXPORT "MsHardSetPre"
+    export MsHardSetPre                             @    13F2Bh
+  entry IET_REL32_EXPORT "SYS_KERNEL_END"
+    export SYS_KERNEL_END                           @    299A0h
+  entry IET_REL32_EXPORT "_MALLOC"
+    export _MALLOC                                  @     5A1Bh
+  entry IET_REL32_EXPORT "_TRUNC"
+    export _TRUNC                                   @     2801h
+  entry IET_REL32_EXPORT "char_bmp_dec_numeric"
+    export char_bmp_dec_numeric                     @     333Ch
+  entry IET_REL32_EXPORT "ATAIDDrvs"
+    export ATAIDDrvs                                @    1CBEAh
+  entry IET_REL32_EXPORT "UserCmdLine"
+    export UserCmdLine                              @    15FABh
+  entry IET_REL32_EXPORT "PCIClassFind"
+    export PCIClassFind                             @    17AC1h
+  entry IET_REL32_EXPORT "ATARep"
+    export ATARep                                   @    1C7B2h
+  entry IET_REL32_EXPORT "KDInputFilterPutS"
+    export KDInputFilterPutS                        @    11356h
+  entry IET_REL32_EXPORT "_XCHG_I64"
+    export _XCHG_I64                                @     2C0Bh
+  entry IET_REL32_EXPORT "ATANop"
+    export ATANop                                   @    1A9FAh
+  entry IET_REL32_EXPORT "TaskDel"
+    export TaskDel                                  @    1607Bh
+  entry IET_REL32_EXPORT "HasLower"
+    export HasLower                                 @    283F0h
+  entry IET_REL32_EXPORT "_CALL"
+    export _CALL                                    @     2BA1h
+  entry IET_REL32_EXPORT "KeyDescSet"
+    export KeyDescSet                               @    111AEh
+  entry IET_REL32_EXPORT "FSize"
+    export FSize                                    @    26690h
+  entry IET_REL32_EXPORT "IntEntrySet"
+    export IntEntrySet                              @     7F7Ah
+  entry IET_REL32_EXPORT "Mem32DevIns"
+    export Mem32DevIns                              @     6031h
+  entry IET_REL32_EXPORT "SYS_MP_CNT_INITIAL"
+    export SYS_MP_CNT_INITIAL                       @     17F0h
+  entry IET_REL32_EXPORT "char_bmp_word"
+    export char_bmp_word                            @     32BCh
+  entry IET_REL32_EXPORT "BlkRead"
+    export BlkRead                                  @    1E573h
+  entry IET_REL32_EXPORT "_CEIL"
+    export _CEIL                                    @     2867h
+  entry IET_REL32_EXPORT "TaskEnd"
+    export TaskEnd                                  @    160ABh
+  entry IET_REL32_EXPORT "MEM_1GIG_NUM"
+    export MEM_1GIG_NUM                             @     1648h
+  entry IET_REL32_EXPORT "TaskCaller"
+    export TaskCaller                               @     F6CEh
+  entry IET_REL32_EXPORT "SYS_GDT"
+    export SYS_GDT                                  @      400h
+  entry IET_REL32_EXPORT "CDate2Dos"
+    export CDate2Dos                                @    21E73h
+  entry IET_REL32_EXPORT "ExtChg"
+    export ExtChg                                   @    19D22h
+  entry IET_REL32_EXPORT "RedSeaFilesDel"
+    export RedSeaFilesDel                           @    21643h
+  entry IET_REL32_EXPORT "LastDayOfMon"
+    export LastDayOfMon                             @     A4BCh
+  entry IET_REL32_EXPORT "_REP_OUT_U16"
+    export _REP_OUT_U16                             @     2D07h
+  entry IET_REL32_EXPORT "_REP_OUT_U32"
+    export _REP_OUT_U32                             @     2CEFh
+  entry IET_REL32_EXPORT "FirstDayOfMon"
+    export FirstDayOfMon                            @     A474h
+  entry IET_REL32_EXPORT "PutChars"
+    export PutChars                                 @    110AEh
+  entry IET_REL32_EXPORT "_BEQU"
+    export _BEQU                                    @     2B0Dh
+  entry IET_REL32_EXPORT "BlkDevsInitAll"
+    export BlkDevsInitAll                           @    1F9CBh
+  entry IET_REL32_EXPORT "SysUntry"
+    export SysUntry                                 @    11A03h
+  entry IET_REL32_EXPORT "_MEMCMP"
+    export _MEMCMP                                  @     2AE2h
+  entry IET_REL32_EXPORT "ExtDft"
+    export ExtDft                                   @    19DB2h
+  entry IET_REL32_EXPORT "SYS_BOOT_SRC"
+    export SYS_BOOT_SRC                             @        4h
+  entry IET_REL32_EXPORT "TaskExe"
+    export TaskExe                                  @    16463h
+  entry IET_REL32_EXPORT "FileWrite"
+    export FileWrite                                @    264C0h
+  entry IET_REL32_EXPORT "ATAWaitNotBUSY"
+    export ATAWaitNotBUSY                           @    1A8FAh
+  entry IET_REL32_EXPORT "_XCHG_U16"
+    export _XCHG_U16                                @     2C2Fh
+  entry IET_REL32_EXPORT "_XCHG_U32"
+    export _XCHG_U32                                @     2C1Eh
+  entry IET_REL32_EXPORT "MsInit"
+    export MsInit                                   @    139F3h
+  entry IET_REL32_EXPORT "TASK_CONTEXT_SAVE"
+    export TASK_CONTEXT_SAVE                        @     4E68h
+  entry IET_REL32_EXPORT "BootDVDProbeAll"
+    export BootDVDProbeAll                          @    1C272h
+  entry IET_REL32_EXPORT "_MEMCPY"
+    export _MEMCPY                                  @     2AC3h
+  entry IET_REL32_EXPORT "_D3_DIST_SQR"
+    export _D3_DIST_SQR                             @     24DFh
+  entry IET_REL32_EXPORT "ATAWriteBlks"
+    export ATAWriteBlks                             @    1BAD2h
+  entry IET_REL32_EXPORT "FAT32FileWrite"
+    export FAT32FileWrite                           @    247B0h
+  entry IET_REL32_EXPORT "ChkCodePtr"
+    export ChkCodePtr                               @     F52Eh
+  entry IET_REL32_EXPORT "SYS_RAM_REBOOT"
+    export SYS_RAM_REBOOT                           @     241Fh
+  entry IET_REL32_EXPORT "FileFind"
+    export FileFind                                 @    25388h
+  entry IET_REL32_EXPORT "SYS_FIND_PCI_SERVICES"
+    export SYS_FIND_PCI_SERVICES                    @    175B9h
+  entry IET_REL32_EXPORT "CFileNameTo"
+    export CFileNameTo                              @    1EE83h
+  entry IET_REL32_EXPORT "IntNop"
+    export IntNop                                   @     806Ah
+  entry IET_REL32_EXPORT "_D3_MUL_EQU"
+    export _D3_MUL_EQU                              @     26D5h
+  entry IET_REL32_EXPORT "SYS_HASH_SINGLE_TABLE_FIND"
+    export SYS_HASH_SINGLE_TABLE_FIND               @     7C32h
+  entry IET_REL32_EXPORT "TaskMsg"
+    export TaskMsg                                  @    166E3h
+  entry IET_REL32_EXPORT "FAT32Cd"
+    export FAT32Cd                                  @    230A0h
+  entry IET_REL32_EXPORT "Clus2Blk"
+    export Clus2Blk                                 @    1EA23h
+  entry IET_REL32_EXPORT "ATAPIWriteBlks"
+    export ATAPIWriteBlks                           @    1BD9Ah
+  entry IET_REL32_EXPORT "cnts"
+    export cnts                                     @     4178h
+  entry IET_REL32_EXPORT "SYS_HEAP_INIT_FLAG"
+    export SYS_HEAP_INIT_FLAG                       @     1672h
+  entry IET_REL32_EXPORT "ScanChar"
+    export ScanChar                                 @    14A0Bh
+  entry IET_REL32_EXPORT "FAT32FileFind"
+    export FAT32FileFind                            @    22BF8h
+  entry IET_REL32_EXPORT "MsHardSpeedSet"
+    export MsHardSpeedSet                           @    13E8Bh
+  entry IET_REL32_EXPORT "DirTreeDel2"
+    export DirTreeDel2                              @    1FBE3h
+  entry IET_REL32_EXPORT "_FREE"
+    export _FREE                                    @     5BE5h
+  entry IET_REL32_EXPORT "SrcLineNum"
+    export SrcLineNum                               @    28B88h
+  entry IET_REL32_EXPORT "ATAPIClose"
+    export ATAPIClose                               @    1BCEAh
+  entry IET_REL32_EXPORT "Dbg"
+    export Dbg                                      @    10FEEh
+  entry IET_REL32_EXPORT "SYS_POW"
+    export SYS_POW                                  @     289Ch
+  entry IET_REL32_EXPORT "FileAttr"
+    export FileAttr                                 @    19EEAh
+  entry IET_REL32_EXPORT "_MEMSET"
+    export _MEMSET                                  @     2A50h
+  entry IET_REL32_EXPORT "char_bmp_safe_dollar"
+    export char_bmp_safe_dollar                     @     35BCh
+  entry IET_REL32_EXPORT "sys_heap_init_val"
+    export sys_heap_init_val                        @     1673h
+  entry IET_REL32_EXPORT "Del"
+    export Del                                      @    273D0h
+  entry IET_REL32_EXPORT "TaskValidate"
+    export TaskValidate                             @    1535Bh
+  entry IET_REL32_EXPORT "FAT32Init"
+    export FAT32Init                                @    21F6Bh
+  entry IET_REL32_EXPORT "fp_set_std_palette"
+    export fp_set_std_palette                       @     47D8h
+  entry IET_REL32_EXPORT "keydev"
+    export keydev                                   @     4520h
+  entry IET_REL32_EXPORT "MountIDEAuto"
+    export MountIDEAuto                             @    1CE1Ah
+  entry IET_REL32_EXPORT "_LOG2"
+    export _LOG2                                    @     29FEh
+  entry IET_REL32_EXPORT "MsHardHndlr"
+    export MsHardHndlr                              @    1416Bh
+  entry IET_REL32_EXPORT "DrvUnlock"
+    export DrvUnlock                                @    1D7B2h
+  entry IET_REL32_EXPORT "DirFile"
+    export DirFile                                  @    1A0FAh
+  entry IET_REL32_EXPORT "TimeCal"
+    export TimeCal                                  @     EC86h
+  entry IET_REL32_EXPORT "Dir"
+    export Dir                                      @    25CB8h
+  entry IET_REL32_EXPORT "DirMk"
+    export DirMk                                    @    25FA0h
+  entry IET_REL32_EXPORT "ClusBlkWrite"
+    export ClusBlkWrite                             @    1EC3Bh
+  entry IET_REL32_EXPORT "FileRead"
+    export FileRead                                 @    26118h
+  entry IET_REL32_EXPORT "_FAR_CALL32"
+    export _FAR_CALL32                              @    17619h
+  entry IET_REL32_EXPORT "FAT32DirFill"
+    export FAT32DirFill                             @    228E8h
+  entry IET_REL32_EXPORT "QueCopy"
+    export QueCopy                                  @     841Ah
+  entry IET_REL32_EXPORT "Clamp"
+    export Clamp                                    @     47E0h
+  entry IET_REL32_EXPORT "SYS_PROGRESS1_MAX"
+    export SYS_PROGRESS1_MAX                        @     16A0h
+  entry IET_REL32_EXPORT "Fix"
+    export Fix                                      @    19402h
+  entry IET_REL32_EXPORT "_LN"
+    export _LN                                      @     2A14h
+  entry IET_REL32_EXPORT "FAT32FileRead"
+    export FAT32FileRead                            @    22F18h
+  entry IET_REL32_EXPORT "DirFilesFlatten"
+    export DirFilesFlatten                          @    1FE3Bh
+  entry IET_REL32_EXPORT "FileExtDot"
+    export FileExtDot                               @    1947Ah
+  entry IET_REL32_EXPORT "Man"
+    export Man                                      @    29020h
+  entry IET_REL32_EXPORT "FilesFind"
+    export FilesFind                                @    252E8h
+  entry IET_REL32_EXPORT "_HASH_FIND"
+    export _HASH_FIND                               @     7CCBh
+  entry IET_REL32_EXPORT "Fmt"
+    export Fmt                                      @    28288h
+  entry IET_REL32_EXPORT "ExeCmdLine"
+    export ExeCmdLine                               @    15B7Bh
+  entry IET_REL32_EXPORT "FifoI64Flush"
+    export FifoI64Flush                             @     89F2h
+  entry IET_REL32_EXPORT "Name2DirClus"
+    export Name2DirClus                             @    1EEBBh
+  entry IET_REL32_EXPORT "Drv"
+    export Drv                                      @    1DFA2h
+  entry IET_REL32_EXPORT "KbdMsHndlr"
+    export KbdMsHndlr                               @    1448Bh
+  entry IET_REL32_EXPORT "Blink"
+    export Blink                                    @     EE2Eh
+  entry IET_REL32_EXPORT "SysSymImportsResolve"
+    export SysSymImportsResolve                     @     9A9Bh
+  entry IET_REL32_EXPORT "Max"
+    export Max                                      @     4838h
+  entry IET_REL32_EXPORT "SYS_HASH_FIND"
+    export SYS_HASH_FIND                            @     7C80h
+  entry IET_REL32_EXPORT "SYS_PROGRESS2_MAX"
+    export SYS_PROGRESS2_MAX                        @     16F0h
+  entry IET_REL32_EXPORT "Break"
+    export Break                                    @    11C13h
+  entry IET_REL32_EXPORT "Min"
+    export Min                                      @     4818h
+  entry IET_REL32_EXPORT "mp_cnt"
+    export mp_cnt                                   @     17E8h
+  entry IET_REL32_EXPORT "FAT32FilesFind"
+    export FAT32FilesFind                           @    24918h
+  entry IET_REL32_EXPORT "_HASH_ADD_AFTER"
+    export _HASH_ADD_AFTER                          @     7D58h
+  entry IET_REL32_EXPORT "SrvTaskCont"
+    export SrvTaskCont                              @    15E0Bh
+  entry IET_REL32_EXPORT "ATAGetDevId"
+    export ATAGetDevId                              @    1AE8Ah
+  entry IET_REL32_EXPORT "CopySingle"
+    export CopySingle                               @    27148h
+  entry IET_REL32_EXPORT "ATAPIReadCapacity"
+    export ATAPIReadCapacity                        @    1B292h
+  entry IET_REL32_EXPORT "IsDir"
+    export IsDir                                    @    25C38h
+  entry IET_REL32_EXPORT "mem_heap_limit"
+    export mem_heap_limit                           @     1628h
+  entry IET_REL32_EXPORT "ScanCode2KeyName"
+    export ScanCode2KeyName                         @    126ABh
+  entry IET_REL32_EXPORT "FileExtRem"
+    export FileExtRem                               @    194BAh
+  entry IET_REL32_EXPORT "SYS_PROGRESS3_MAX"
+    export SYS_PROGRESS3_MAX                        @     1740h
+  entry IET_REL32_EXPORT "Raw"
+    export Raw                                      @     F396h
+  entry IET_REL32_EXPORT "Msg"
+    export Msg                                      @    16AEBh
+  entry IET_REL32_EXPORT "MemPagAlloc"
+    export MemPagAlloc                              @     54C3h
+  entry IET_REL32_EXPORT "KbdInit"
+    export KbdInit                                  @    132B3h
+  entry IET_REL32_EXPORT "PUT_HEX_U16"
+    export PUT_HEX_U16                              @     2F80h
+  entry IET_REL32_EXPORT "PUT_HEX_U32"
+    export PUT_HEX_U32                              @     2F67h
+  entry IET_REL32_EXPORT "ATAPIStartStop"
+    export ATAPIStartStop                           @    1ADD2h
+  entry IET_REL32_EXPORT "_SIGN"
+    export _SIGN                                    @     2777h
+  entry IET_REL32_EXPORT "PrintErr"
+    export PrintErr                                 @     CC0Eh
+  entry IET_REL32_EXPORT "Snd"
+    export Snd                                      @     F03Eh
+  entry IET_REL32_EXPORT "GetChar"
+    export GetChar                                  @    14C4Bh
+  entry IET_REL32_EXPORT "SYS_PCIBIOS_SERVICE_CALL"
+    export SYS_PCIBIOS_SERVICE_CALL                 @    175D6h
+  entry IET_REL32_EXPORT "Now"
+    export Now                                      @     A75Ch
+  entry IET_REL32_EXPORT "sys_progresses"
+    export sys_progresses                           @     1698h
+  entry IET_REL32_EXPORT "PUT_HEX_U64"
+    export PUT_HEX_U64                              @     2F4Eh
+  entry IET_REL32_EXPORT "SYS_KERNEL"
+    export SYS_KERNEL                               @        0h
+  entry IET_REL32_EXPORT "SYS_PROGRESS4_MAX"
+    export SYS_PROGRESS4_MAX                        @     1790h
+  entry IET_REL32_EXPORT "FATNameXSum"
+    export FATNameXSum                              @    225EBh
+  entry IET_REL32_EXPORT "sys_boot_patch_table_base"
+    export sys_boot_patch_table_base                @        Ch
+  entry IET_REL32_EXPORT "MEM_HEAP_LIMIT"
+    export MEM_HEAP_LIMIT                           @     1628h
+  entry IET_REL32_EXPORT "MStrUtil"
+    export MStrUtil                                 @     77E0h
+  entry IET_REL32_EXPORT "_D3_CROSS"
+    export _D3_CROSS                                @     2510h
+  entry IET_REL32_EXPORT "text"
+    export text                                     @     4768h
+  entry IET_REL32_EXPORT "MPrintQ"
+    export MPrintQ                                  @     A9C4h
+  entry IET_REL32_EXPORT "DskCacheInvalidate"
+    export DskCacheInvalidate                       @    1DE12h
+  entry IET_REL32_EXPORT "mem_heap_base"
+    export mem_heap_base                            @     1620h
+  entry IET_REL32_EXPORT "sys_data_bp"
+    export sys_data_bp                              @     1690h
+  entry IET_REL32_EXPORT "SYS_PCI_BUSES"
+    export SYS_PCI_BUSES                            @      3F6h
+  entry IET_REL32_EXPORT "_CLAMP_I64"
+    export _CLAMP_I64                               @     2B5Dh
+  entry IET_REL32_EXPORT "Spaces2Tabs"
+    export Spaces2Tabs                              @     380Ch
+  entry IET_REL32_EXPORT "Drv2Let"
+    export Drv2Let                                  @    1DC32h
+  entry IET_REL32_EXPORT "KDRawPutS"
+    export KDRawPutS                                @    112DEh
+  entry IET_REL32_EXPORT "progress1_max"
+    export progress1_max                            @     16A0h
+  entry IET_REL32_EXPORT "FifoU8Flush"
+    export FifoU8Flush                              @     8812h
+  entry IET_REL32_EXPORT "InStr"
+    export InStr                                    @    1738Bh
+  entry IET_REL32_EXPORT "SYS_PROGRESSES"
+    export SYS_PROGRESSES                           @     1698h
+  entry IET_REL32_EXPORT "DskCacheHash"
+    export DskCacheHash                             @    1A43Ah
+  entry IET_REL32_EXPORT "fp_doc_put"
+    export fp_doc_put                               @     47D0h
+  entry IET_REL32_EXPORT "DskCacheFind"
+    export DskCacheFind                             @    1A502h
+  entry IET_REL32_EXPORT "IsRaw"
+    export IsRaw                                    @     F3DEh
+  entry IET_REL32_EXPORT "ATAPIReadTrackInfo"
+    export ATAPIReadTrackInfo                       @    1B3C2h
+  entry IET_REL32_EXPORT "RedSeaFreeClus"
+    export RedSeaFreeClus                           @    20C1Bh
+  entry IET_REL32_EXPORT "ATAReadBlks"
+    export ATAReadBlks                              @    1B612h
+  entry IET_REL32_EXPORT "Reboot"
+    export Reboot                                   @    29570h
+  entry IET_REL32_EXPORT "acd"
+    export acd                                      @     3E98h
+  entry IET_REL32_EXPORT "LoadKernel"
+    export LoadKernel                               @     A063h
+  entry IET_REL32_EXPORT "ATAPIReadBlks"
+    export ATAPIReadBlks                            @    1B8B2h
+  entry IET_REL32_EXPORT "progress2_max"
+    export progress2_max                            @     16F0h
+  entry IET_REL32_EXPORT "Color2Str"
+    export Color2Str                                @     E17Eh
+  entry IET_REL32_EXPORT "MAllocIdent"
+    export MAllocIdent                              @     5D81h
+  entry IET_REL32_EXPORT "StrFirstOcc"
+    export StrFirstOcc                              @     3A9Ch
+  entry IET_REL32_EXPORT "MPrintq"
+    export MPrintq                                  @     ABB4h
+  entry IET_REL32_EXPORT "AMAllocIdent"
+    export AMAllocIdent                             @     5DD1h
+  entry IET_REL32_EXPORT "sys_font_cyrillic"
+    export sys_font_cyrillic                        @     6DC8h
+  entry IET_REL32_EXPORT "SYS_FOCUS_TASK"
+    export SYS_FOCUS_TASK                           @     17D8h
+  entry IET_REL32_EXPORT "dbg"
+    export dbg                                      @     41C0h
+  entry IET_REL32_EXPORT "QSort"
+    export QSort                                    @    151ABh
+  entry IET_REL32_EXPORT "mp_cnt_lock"
+    export mp_cnt_lock                              @     17F8h
+  entry IET_REL32_EXPORT "IsSuspended"
+    export IsSuspended                              @    1555Bh
+  entry IET_REL32_EXPORT "CAlloc"
+    export CAlloc                                   @     5D29h
+  entry IET_REL32_EXPORT "sys_neg_pows_lets"
+    export sys_neg_pows_lets                        @     AEA0h
+  entry IET_REL32_EXPORT "progress3_max"
+    export progress3_max                            @     1740h
+  entry IET_REL32_EXPORT "sys_pos_pows_lets"
+    export sys_pos_pows_lets                        @     AE88h
+  entry IET_REL32_EXPORT "QueSize"
+    export QueSize                                  @     84B2h
+  entry IET_REL32_EXPORT "CtrlAltDel"
+    export CtrlAltDel                               @    1139Eh
+  entry IET_REL32_EXPORT "HeapCtrlInit"
+    export HeapCtrlInit                             @     5F71h
+  entry IET_REL32_EXPORT "BlkWriteZero"
+    export BlkWriteZero                             @    1E47Bh
+  entry IET_REL32_EXPORT "progress1"
+    export progress1                                @     1698h
+  entry IET_REL32_EXPORT "progress2"
+    export progress2                                @     16E8h
+  entry IET_REL32_EXPORT "_CLAMP_U64"
+    export _CLAMP_U64                               @     2B7Fh
+  entry IET_REL32_EXPORT "progress3"
+    export progress3                                @     1738h
+  entry IET_REL32_EXPORT "progress4"
+    export progress4                                @     1788h
+  entry IET_REL32_EXPORT "CtrlAltCBSet"
+    export CtrlAltCBSet                             @    114CEh
+  entry IET_REL32_EXPORT "SysTimerRead"
+    export SysTimerRead                             @     EBCEh
+  entry IET_REL32_EXPORT "dev"
+    export dev                                      @     4208h
+  entry IET_REL32_EXPORT "FunSegCacheFind"
+    export FunSegCacheFind                          @    28758h
+  entry IET_REL32_EXPORT "MsUpdate"
+    export MsUpdate                                 @    135EBh
+  entry IET_REL32_EXPORT "StrFirstRem"
+    export StrFirstRem                              @     3AE4h
+  entry IET_REL32_EXPORT "SYS_VAR_INIT_VAL"
+    export SYS_VAR_INIT_VAL                         @     1675h
+  entry IET_REL32_EXPORT "BptFind"
+    export BptFind                                  @    1010Eh
+  entry IET_REL32_EXPORT "kbd"
+    export kbd                                      @     4498h
+  entry IET_REL32_EXPORT "progress4_max"
+    export progress4_max                            @     1790h
+  entry IET_REL32_EXPORT "HashDel"
+    export HashDel                                  @     9293h
+  entry IET_REL32_EXPORT "ISOInit"
+    export ISOInit                                  @    274B8h
+  entry IET_REL32_EXPORT "sys_font_std"
+    export sys_font_std                             @     65C8h
+  entry IET_REL32_EXPORT "LinkedLstCopy"
+    export LinkedLstCopy                            @     832Ah
+  entry IET_REL32_EXPORT "char_bmp_alpha"
+    export char_bmp_alpha                           @     31FCh
+  entry IET_REL32_EXPORT "Let2Drv"
+    export Let2Drv                                  @    1DD42h
+  entry IET_REL32_EXPORT "fat_long_name_map"
+    export fat_long_name_map                        @    22723h
+  entry IET_REL32_EXPORT "DskCacheInit"
+    export DskCacheInit                             @    1A2C2h
+  entry IET_REL32_EXPORT "QueDel"
+    export QueDel                                   @     83CAh
+  entry IET_REL32_EXPORT "Let2Let"
+    export Let2Let                                  @    1DC5Ah
+  entry IET_REL32_EXPORT "RedSeaDirNew"
+    export RedSeaDirNew                             @    2108Bh
+  entry IET_REL32_EXPORT "SYS_INIT_16MEG_SYS_CODE_BP"
+    export SYS_INIT_16MEG_SYS_CODE_BP               @     53A5h
+  entry IET_REL32_EXPORT "SYS_EXTERN_TABLE"
+    export SYS_EXTERN_TABLE                         @     1680h
+  entry IET_REL32_EXPORT "char_bmp_hex_numeric"
+    export char_bmp_hex_numeric                     @     337Ch
+  entry IET_REL32_EXPORT "sys_run_level"
+    export sys_run_level                            @       10h
+  entry IET_REL32_EXPORT "TaskRegAddr"
+    export TaskRegAddr                              @     FD66h
+  entry IET_REL32_EXPORT "c32_eflags"
+    export c32_eflags                               @    1760Dh
+  entry IET_REL32_EXPORT "sys_macro_head"
+    export sys_macro_head                           @     3DD0h
+  entry IET_REL32_EXPORT "XTalk"
+    export XTalk                                    @    1726Bh
+  entry IET_REL32_EXPORT "SYS_ENTER_LONG_MODE"
+    export SYS_ENTER_LONG_MODE                      @     23DEh
+  entry IET_REL32_EXPORT "LstSub"
+    export LstSub                                   @     363Ch
+  entry IET_REL32_EXPORT "TaskDerivedValsUpdate"
+    export TaskDerivedValsUpdate                    @    15B0Bh
+  entry IET_REL32_EXPORT "_HASH_ADD"
+    export _HASH_ADD                                @     7D2Bh
+  entry IET_REL32_EXPORT "MEM_E801"
+    export MEM_E801                                 @       20h
+  entry IET_REL32_EXPORT "MEM_E820"
+    export MEM_E820                                 @       24h
+  entry IET_REL32_EXPORT "MsSet"
+    export MsSet                                    @    138B3h
+  entry IET_REL32_EXPORT "_CALLEXTNUM"
+    export _CALLEXTNUM                              @     2D96h
+  entry IET_REL32_EXPORT "QueCnt"
+    export QueCnt                                   @     8482h
+  entry IET_REL32_EXPORT "Panic"
+    export Panic                                    @    10FB6h
+  entry IET_REL32_EXPORT "IntsInit"
+    export IntsInit                                 @     8022h
+  entry IET_REL32_EXPORT "_XCHG_U8"
+    export _XCHG_U8                                 @     2C43h
+  entry IET_REL32_EXPORT "FAT32FilesDel"
+    export FAT32FilesDel                            @    242F8h
+  entry IET_REL32_EXPORT "Bcd2Bin"
+    export Bcd2Bin                                  @     A5ACh
+  entry IET_REL32_EXPORT "CAllocAligned"
+    export CAllocAligned                            @     5E69h
+  entry IET_REL32_EXPORT "MAllocAligned"
+    export MAllocAligned                            @     5DF1h
+  entry IET_REL32_EXPORT "ext"
+    export ext                                      @     1680h
+  entry IET_REL32_EXPORT "RawDm"
+    export RawDm                                    @     FCE6h
+  entry IET_REL32_EXPORT "DskCacheAdd"
+    export DskCacheAdd                              @    1A552h
+  entry IET_REL32_EXPORT "MPNMInt"
+    export MPNMInt                                  @    17FD2h
+  entry IET_REL32_EXPORT "_MSIZE2"
+    export _MSIZE2                                  @     5CC3h
+  entry IET_REL32_EXPORT "RawDr"
+    export RawDr                                    @     FE46h
+  entry IET_REL32_EXPORT "DirFilesSort"
+    export DirFilesSort                             @    1FD03h
+  entry IET_REL32_EXPORT "HashLstAdd"
+    export HashLstAdd                               @     967Bh
+  entry IET_REL32_EXPORT "ACAlloc"
+    export ACAlloc                                  @     5D61h
+  entry IET_REL32_EXPORT "SYS_PROGRESS1_T0"
+    export SYS_PROGRESS1_T0                         @     16A8h
+  entry IET_REL32_EXPORT "SYS_RUN_LEVEL"
+    export SYS_RUN_LEVEL                            @       10h
+  entry IET_REL32_EXPORT "ClusAlloc"
+    export ClusAlloc                                @    1EDEBh
+  entry IET_REL32_EXPORT "SndRst"
+    export SndRst                                   @     F20Eh
+  entry IET_REL32_EXPORT "C32_EFLAGS"
+    export C32_EFLAGS                               @    1760Dh
+  entry IET_REL32_EXPORT "sys_compile_time"
+    export sys_compile_time                         @       14h
+  entry IET_REL32_EXPORT "_D3_DIV_EQU"
+    export _D3_DIV_EQU                              @     26F8h
+  entry IET_REL32_EXPORT "_D3_SUB_EQU"
+    export _D3_SUB_EQU                              @     26ADh
+  entry IET_REL32_EXPORT "C32_ADD"
+    export C32_ADD                                  @    176C4h
+  entry IET_REL32_EXPORT "HeapCtrlDel"
+    export HeapCtrlDel                              @     5FD9h
+  entry IET_REL32_EXPORT "_CALLEXTSTR"
+    export _CALLEXTSTR                              @     2DDAh
+  entry IET_REL32_EXPORT "SYS_PROGRESS2_T0"
+    export SYS_PROGRESS2_T0                         @     16F8h
+  entry IET_REL32_EXPORT "char_bmp_filename"
+    export char_bmp_filename                        @     32FCh
+  entry IET_REL32_EXPORT "FunSegCacheAdd"
+    export FunSegCacheAdd                           @    28668h
+  entry IET_REL32_EXPORT "MEM_PHYSICAL_SPACE"
+    export MEM_PHYSICAL_SPACE                       @      3E4h
+  entry IET_REL32_EXPORT "DirContextDel"
+    export DirContextDel                            @    24EA0h
+  entry IET_REL32_EXPORT "StrPrintFlags"
+    export StrPrintFlags                            @     7BA8h
+  entry IET_REL32_EXPORT "SYS_PROGRESS3_T0"
+    export SYS_PROGRESS3_T0                         @     1748h
+  entry IET_REL32_EXPORT "SpawnQue"
+    export SpawnQue                                 @    1825Ah
+  entry IET_REL32_EXPORT "StrPrintFunSeg"
+    export StrPrintFunSeg                           @    28810h
+  entry IET_REL32_EXPORT "HashVal"
+    export HashVal                                  @     91BBh
+  entry IET_REL32_EXPORT "KbdMsInit"
+    export KbdMsInit                                @    1456Bh
+  entry IET_REL32_EXPORT "SYS_PROGRESS1_TF"
+    export SYS_PROGRESS1_TF                         @     16B0h
+  entry IET_REL32_EXPORT "SYS_PROGRESS4_T0"
+    export SYS_PROGRESS4_T0                         @     1798h
+  entry IET_REL32_EXPORT "sys_heap_dbg"
+    export sys_heap_dbg                             @     1677h
+  entry IET_REL32_EXPORT "DVDImageWriteTask"
+    export DVDImageWriteTask                        @    27C18h
+  entry IET_REL32_EXPORT "CoreAPSethInit"
+    export CoreAPSethInit                           @    1831Ah
+  entry IET_REL32_EXPORT "IRQKbd"
+    export IRQKbd                                   @    1325Bh
+  entry IET_REL32_EXPORT "QueVectU8Del"
+    export QueVectU8Del                             @     862Ah
+  entry IET_REL32_EXPORT "C32_EDI"
+    export C32_EDI                                  @    17609h
+  entry IET_REL32_EXPORT "pow10_I64"
+    export pow10_I64                                @     3E88h
+  entry IET_REL32_EXPORT "sys_num_spawned_tasks"
+    export sys_num_spawned_tasks                    @     3E58h
+  entry IET_REL32_EXPORT "ArcFinishCompression"
+    export ArcFinishCompression                     @     8C7Bh
+  entry IET_REL32_EXPORT "sys_winmgr_task"
+    export sys_winmgr_task                          @     3E60h
+  entry IET_REL32_EXPORT "SYS_PROGRESS2_TF"
+    export SYS_PROGRESS2_TF                         @     1700h
+  entry IET_REL32_EXPORT "SYS_RAM_REBOOT_END"
+    export SYS_RAM_REBOOT_END                       @     2460h
+  entry IET_REL32_EXPORT "_SAVE_EXCEPT_REGS"
+    export _SAVE_EXCEPT_REGS                        @    11867h
+  entry IET_REL32_EXPORT "RoundI64"
+    export RoundI64                                 @     48F8h
+  entry IET_REL32_EXPORT "DrvSerialNum"
+    export DrvSerialNum                             @    1E0A2h
+  entry IET_REL32_EXPORT "C32_EAX"
+    export C32_EAX                                  @    175F5h
+  entry IET_REL32_EXPORT "PortNop"
+    export PortNop                                  @     EA66h
+  entry IET_REL32_EXPORT "SYS_PROGRESS3_TF"
+    export SYS_PROGRESS3_TF                         @     1750h
+  entry IET_REL32_EXPORT "SYS_HEAP_INIT_VAL"
+    export SYS_HEAP_INIT_VAL                        @     1673h
+  entry IET_REL32_EXPORT "C32_EBX"
+    export C32_EBX                                  @    175F9h
+  entry IET_REL32_EXPORT "C32_ECX"
+    export C32_ECX                                  @    175FDh
+  entry IET_REL32_EXPORT "FifoU8Peek"
+    export FifoU8Peek                               @     87DAh
+  entry IET_REL32_EXPORT "JobsHndlr"
+    export JobsHndlr                                @    16EBBh
+  entry IET_REL32_EXPORT "C32_EDX"
+    export C32_EDX                                  @    17601h
+  entry IET_REL32_EXPORT "LoadPass1"
+    export LoadPass1                                @     9AFBh
+  entry IET_REL32_EXPORT "LoadPass2"
+    export LoadPass2                                @     9DCBh
+  entry IET_REL32_EXPORT "MemPagTaskAlloc"
+    export MemPagTaskAlloc                          @     56BBh
+  entry IET_REL32_EXPORT "IntCore0TimerHndlr"
+    export IntCore0TimerHndlr                       @     EB66h
+  entry IET_REL32_EXPORT "SYS_PROGRESS4_TF"
+    export SYS_PROGRESS4_TF                         @     17A0h
+  entry IET_REL32_EXPORT "QueVectU8Get"
+    export QueVectU8Get                             @     8652h
+  entry IET_REL32_EXPORT "char_bmp_macro"
+    export char_bmp_macro                           @     34FCh
+  entry IET_REL32_EXPORT "PostMsg"
+    export PostMsg                                  @    16A33h
+  entry IET_REL32_EXPORT "ATAPISeek"
+    export ATAPISeek                                @    1AD22h
+  entry IET_REL32_EXPORT "MPrintDate"
+    export MPrintDate                               @     A95Ch
+  entry IET_REL32_EXPORT "_BIT_FIELD_EXT_U32"
+    export _BIT_FIELD_EXT_U32                       @     2BD9h
+  entry IET_REL32_EXPORT "Silent"
+    export Silent                                   @     F30Eh
+  entry IET_REL32_EXPORT "DrvMakeFreeSlot"
+    export DrvMakeFreeSlot                          @    1D85Ah
+  entry IET_REL32_EXPORT "FifoU8Del"
+    export FifoU8Del                                @     871Ah
+  entry IET_REL32_EXPORT "DrvIsWritable"
+    export DrvIsWritable                            @    1DDC2h
+  entry IET_REL32_EXPORT "Freq2Ona"
+    export Freq2Ona                                 @     EFE6h
+  entry IET_REL32_EXPORT "SYS_INIT_PAGE_TABLES"
+    export SYS_INIT_PAGE_TABLES                     @     51EDh
+  entry IET_REL32_EXPORT "C32_ESI"
+    export C32_ESI                                  @    17605h
+  entry IET_REL32_EXPORT "BlkPoolsInit"
+    export BlkPoolsInit                             @     58C3h
+  entry IET_REL32_EXPORT "SYS_DATA_BP"
+    export SYS_DATA_BP                              @     1690h
+  entry IET_REL32_EXPORT "sys_code_bp"
+    export sys_code_bp                              @     1688h
+  entry IET_REL32_EXPORT "NORMAL_KEY_SCAN_DECODE_TABLE"
+    export NORMAL_KEY_SCAN_DECODE_TABLE             @    11D1Bh
+  entry IET_REL32_EXPORT "LinkedLstSize"
+    export LinkedLstSize                            @     839Ah
+  entry IET_REL32_EXPORT "DirContextNew"
+    export DirContextNew                            @    24F50h
+  entry IET_REL32_EXPORT "_SET_MSR"
+    export _SET_MSR                                 @     2E70h
+  entry IET_REL32_EXPORT "FAT32AllocClus"
+    export FAT32AllocClus                           @    23340h
+  entry IET_REL32_EXPORT "CallStkGrow"
+    export CallStkGrow                              @    155F3h
+  entry IET_REL32_EXPORT "KbdMsEvtTime"
+    export KbdMsEvtTime                             @    13513h
+  entry IET_REL32_EXPORT "CoreAPSethTask"
+    export CoreAPSethTask                           @    180DAh
+  entry IET_REL32_EXPORT "RawPutChar"
+    export RawPutChar                               @     E596h
+  entry IET_REL32_EXPORT "FifoU8Cnt"
+    export FifoU8Cnt                                @     8832h
+  entry IET_REL32_EXPORT "QueVectU8New"
+    export QueVectU8New                             @     84EAh
+  entry IET_REL32_EXPORT "SET_FS_BASE"
+    export SET_FS_BASE                              @     2E5Ah
+  entry IET_REL32_EXPORT "PutHex"
+    export PutHex                                   @     2EFEh
+  entry IET_REL32_EXPORT "PopUp"
+    export PopUp                                    @    16F5Bh
+  entry IET_REL32_EXPORT "FBlkWrite"
+    export FBlkWrite                                @    26D38h
+  entry IET_REL32_EXPORT "COREAP_16BIT_INIT_END"
+    export COREAP_16BIT_INIT_END                    @    17BB1h
+  entry IET_REL32_EXPORT "StrLastOcc"
+    export StrLastOcc                               @     3B7Ch
+  entry IET_REL32_EXPORT "FClose"
+    export FClose                                   @    26940h
+  entry IET_REL32_EXPORT "mon_start_days1"
+    export mon_start_days1                          @     A0B4h
+  entry IET_REL32_EXPORT "mon_start_days2"
+    export mon_start_days2                          @     A0CCh
+  entry IET_REL32_EXPORT "Sleep"
+    export Sleep                                    @     EF4Eh
+  entry IET_REL32_EXPORT "RedSeaMkDir"
+    export RedSeaMkDir                              @    21CEBh
+  entry IET_REL32_EXPORT "PutKey"
+    export PutKey                                   @    1100Eh
+  entry IET_REL32_EXPORT "_HASH_STR"
+    export _HASH_STR                                @     7CB8h
+  entry IET_REL32_EXPORT "sys_macro_task"
+    export sys_macro_task                           @     3E40h
+  entry IET_REL32_EXPORT "FAT32AllocContiguousClus"
+    export FAT32AllocContiguousClus                 @    235D0h
+  entry IET_REL32_EXPORT "FifoU8Ins"
+    export FifoU8Ins                                @     873Ah
+  entry IET_REL32_EXPORT "IntFaultHndlrsNew"
+    export IntFaultHndlrsNew                        @     816Ah
+  entry IET_REL32_EXPORT "FATFromName"
+    export FATFromName                              @    22653h
+  entry IET_REL32_EXPORT "char_bmp_zero_tab_cr_nl_cursor_dollar"
+    export char_bmp_zero_tab_cr_nl_cursor_dollar    @     34BCh
+  entry IET_REL32_EXPORT "XTalkStrWait"
+    export XTalkStrWait                             @    17513h
+  entry IET_REL32_EXPORT "mem_physical_space"
+    export mem_physical_space                       @      3E4h
+  entry IET_REL32_EXPORT "EdLiteFileLine"
+    export EdLiteFileLine                           @    19342h
+  entry IET_REL32_EXPORT "FifoU8New"
+    export FifoU8New                                @     86BAh
+  entry IET_REL32_EXPORT "ATAPIWritePktWord"
+    export ATAPIWritePktWord                        @    1AC12h
+  entry IET_REL32_EXPORT "FilesFindMatch"
+    export FilesFindMatch                           @    195DAh
+  entry IET_REL32_EXPORT "BlkDevsRelease"
+    export BlkDevsRelease                           @    1D54Ah
+  entry IET_REL32_EXPORT "Cd2DirEntry"
+    export Cd2DirEntry                              @    19E3Ah
+  entry IET_REL32_EXPORT "FifoU8Rem"
+    export FifoU8Rem                                @     878Ah
+  entry IET_REL32_EXPORT "sys_clip_doc"
+    export sys_clip_doc                             @     3E48h
+  entry IET_REL32_EXPORT "StrLastRem"
+    export StrLastRem                               @     3BC4h
+  entry IET_REL32_EXPORT "BlkDevAdd"
+    export BlkDevAdd                                @    1F2E3h
+  entry IET_REL32_EXPORT "DirLongNameFill"
+    export DirLongNameFill                          @    22730h
+  entry IET_REL32_EXPORT "Ona2Freq"
+    export Ona2Freq                                 @     EF8Eh
+  entry IET_REL32_EXPORT "QueVectU8Put"
+    export QueVectU8Put                             @     8532h
+  entry IET_REL32_EXPORT "StrFind"
+    export StrFind                                  @     3C24h
+  entry IET_REL32_EXPORT "C32_RSP"
+    export C32_RSP                                  @    17611h
+  entry IET_REL32_EXPORT "OutStr"
+    export OutStr                                   @     A80Ch
+  entry IET_REL32_EXPORT "TimersInit"
+    export TimersInit                               @    29450h
+  entry IET_REL32_EXPORT "DefineMatch"
+    export DefineMatch                              @     DC0Eh
+  entry IET_REL32_EXPORT "ATAPISetMaxSpeed"
+    export ATAPISetMaxSpeed                         @    1AC72h
+  entry IET_REL32_EXPORT "StkRep"
+    export StkRep                                   @     F796h
+  entry IET_REL32_EXPORT "MEM_2MEG_NUM"
+    export MEM_2MEG_NUM                             @     1640h
+  entry IET_REL32_EXPORT "ArcExpandBuf"
+    export ArcExpandBuf                             @     8CBBh
+  entry IET_REL32_EXPORT "IsDbgMode"
+    export IsDbgMode                                @     F46Eh
+  entry IET_REL32_EXPORT "TaskFocusNext"
+    export TaskFocusNext                            @     4E08h
+  entry IET_REL32_EXPORT "Print"
+    export Print                                    @     CB8Eh
+  entry IET_REL32_EXPORT "BlkDevDel"
+    export BlkDevDel                                @    1D682h
+  entry IET_REL32_EXPORT "BlkDevChk"
+    export BlkDevChk                                @    1D6C2h
+  entry IET_REL32_EXPORT "DrvBlkDevDel"
+    export DrvBlkDevDel                             @    1D9C2h
+  entry IET_REL32_EXPORT "ATAPISync"
+    export ATAPISync                                @    1BC1Ah
+  entry IET_REL32_EXPORT "TO_UPPER"
+    export TO_UPPER                                 @     303Bh
+  entry IET_REL32_EXPORT "MEM_PAGE_SIZE"
+    export MEM_PAGE_SIZE                            @     1630h
+  entry IET_REL32_EXPORT "SleepUntil"
+    export SleepUntil                               @     EEF6h
+  entry IET_REL32_EXPORT "Spawn"
+    export Spawn                                    @    1597Bh
+  entry IET_REL32_EXPORT "SET_GS_BASE"
+    export SET_GS_BASE                              @     2E44h
+  entry IET_REL32_EXPORT "DirEntryDel2"
+    export DirEntryDel2                             @    1FB73h
+  entry IET_REL32_EXPORT "DefineLoad"
+    export DefineLoad                               @     D8FEh
+  entry IET_REL32_EXPORT "INT_FAULT_ERR_CODE_BITMAP"
+    export INT_FAULT_ERR_CODE_BITMAP                @     7F12h
+  entry IET_REL32_EXPORT "StrOcc"
+    export StrOcc                                   @     37C4h
+  entry IET_REL32_EXPORT "FlushMsgs"
+    export FlushMsgs                                @    14963h
+  entry IET_REL32_EXPORT "ClusRead"
+    export ClusRead                                 @    1EC03h
+  entry IET_REL32_EXPORT "FAT32FreeClus"
+    export FAT32FreeClus                            @    23138h
+  entry IET_REL32_EXPORT "sys_mem_init_flag"
+    export sys_mem_init_flag                        @     1670h
+  entry IET_REL32_EXPORT "RedSeaFmt"
+    export RedSeaFmt                                @    20503h
+  entry IET_REL32_EXPORT "sys_var_init_flag"
+    export sys_var_init_flag                        @     1674h
+  entry IET_REL32_EXPORT "SysGetStr2"
+    export SysGetStr2                               @    100D6h
+  entry IET_REL32_EXPORT "fp_getstr2"
+    export fp_getstr2                               @     47C0h
+  entry IET_REL32_EXPORT "KDRawPutKey"
+    export KDRawPutKey                              @    112B6h
+  entry IET_REL32_EXPORT "Dos2CDate"
+    export Dos2CDate                                @    21EEBh
+  entry IET_REL32_EXPORT "DirEntryCompareClus"
+    export DirEntryCompareClus                      @    1FCE3h
+  entry IET_REL32_EXPORT "QSortI64"
+    export QSortI64                                 @    14E4Bh
+  entry IET_REL32_EXPORT "RawPrint"
+    export RawPrint                                 @     FBBEh
+  entry IET_REL32_EXPORT "AreYouSure"
+    export AreYouSure                               @     79A0h
+  entry IET_REL32_EXPORT "_REP_IN_U16"
+    export _REP_IN_U16                              @     2CBDh
+  entry IET_REL32_EXPORT "_REP_IN_U32"
+    export _REP_IN_U32                              @     2CA5h
+  entry IET_REL32_EXPORT "StrNew"
+    export StrNew                                   @     5EE9h
+  entry IET_REL32_EXPORT "TaskRstAwaitingMsg"
+    export TaskRstAwaitingMsg                       @    16423h
+  entry IET_REL32_EXPORT "MPHalt"
+    export MPHalt                                   @    17FF2h
+  entry IET_REL32_EXPORT "UnusedStk"
+    export UnusedStk                                @     F60Eh
+  entry IET_REL32_EXPORT "DirEntryCompareName"
+    export DirEntryCompareName                      @    1FC23h
+  entry IET_REL32_EXPORT "sys_staff_mode_flag"
+    export sys_staff_mode_flag                      @     1676h
+  entry IET_REL32_EXPORT "StrScan"
+    export StrScan                                  @     D426h
+  entry IET_REL32_EXPORT "ATARepFind"
+    export ATARepFind                               @    1CBBAh
+  entry IET_REL32_EXPORT "QSort2a"
+    export QSort2a                                  @    14F5Bh
+  entry IET_REL32_EXPORT "num_lock_map"
+    export num_lock_map                             @    123D3h
+  entry IET_REL32_EXPORT "ms_hard_last"
+    export ms_hard_last                             @     4698h
+  entry IET_REL32_EXPORT "QSort2b"
+    export QSort2b                                  @    15063h
+  entry IET_REL32_EXPORT "RedSeaInit"
+    export RedSeaInit                               @    2036Bh
+  entry IET_REL32_EXPORT "MEM_BOOT_BASE"
+    export MEM_BOOT_BASE                            @       1Ch
+  entry IET_REL32_EXPORT "IRQ_TIMER"
+    export IRQ_TIMER                                @     7E04h
+  entry IET_REL32_EXPORT "DrvNextFreeLet"
+    export DrvNextFreeLet                           @    1D8CAh
+  entry IET_REL32_EXPORT "PCIReadU32"
+    export PCIReadU32                               @    17871h
+  entry IET_REL32_EXPORT "PCIReadU16"
+    export PCIReadU16                               @    177D1h
+  entry IET_REL32_EXPORT "YearStartDate"
+    export YearStartDate                            @     A0E4h
+  entry IET_REL32_EXPORT "_REP_IN_U8"
+    export _REP_IN_U8                               @     2CD6h
+  entry IET_REL32_EXPORT "SHIFT_KEY_SCAN_DECODE_TABLE"
+    export SHIFT_KEY_SCAN_DECODE_TABLE              @    11D6Bh
+  entry IET_REL32_EXPORT "VGAFlush"
+    export VGAFlush                                 @     E8DEh
+  entry IET_REL32_EXPORT "SysDbg"
+    export SysDbg                                   @     F356h
+  entry IET_REL32_EXPORT "FramePtrAdd"
+    export FramePtrAdd                              @     97ABh
+  entry IET_REL32_EXPORT "MPrintTime"
+    export MPrintTime                               @     A8FCh
+  entry IET_REL32_EXPORT "CatPrint"
+    export CatPrint                                 @     CB46h
+  entry IET_REL32_EXPORT "HashPublic"
+    export HashPublic                               @     95FBh
+  entry IET_REL32_EXPORT "BlkDevInit"
+    export BlkDevInit                               @    1D022h
+  entry IET_REL32_EXPORT "KbdMsCmdAck"
+    export KbdMsCmdAck                              @    11FD3h
+  entry IET_REL32_EXPORT "ATARBlks"
+    export ATARBlks                                 @    1BA52h
+  entry IET_REL32_EXPORT "char_bmp_displayable"
+    export char_bmp_displayable                     @     357Ch
+  entry IET_REL32_EXPORT "PUT_CHARS"
+    export PUT_CHARS                                @     2FB2h
+  entry IET_REL32_EXPORT "DrvEnable"
+    export DrvEnable                                @    1F73Bh
+  entry IET_REL32_EXPORT "char_bmp_white_space"
+    export char_bmp_white_space                     @     33BCh
+  entry IET_REL32_EXPORT "BlkDevLock"
+    export BlkDevLock                               @    1CF62h
+  entry IET_REL32_EXPORT "MEM_PML2"
+    export MEM_PML2                                 @     1658h
+  entry IET_REL32_EXPORT "MEM_PML3"
+    export MEM_PML3                                 @     1660h
+  entry IET_REL32_EXPORT "MEM_PML4"
+    export MEM_PML4                                 @     1668h
+  entry IET_REL32_EXPORT "sys_mem_init_val"
+    export sys_mem_init_val                         @     1671h
+  entry IET_REL32_EXPORT "Struct2Date"
+    export Struct2Date                              @     A164h
+  entry IET_REL32_EXPORT "SYS_MP_CNT"
+    export SYS_MP_CNT                               @     17E8h
+  entry IET_REL32_EXPORT "EdLiteUpdate"
+    export EdLiteUpdate                             @    18762h
+  entry IET_REL32_EXPORT "_ARC_ENTRY_GET"
+    export _ARC_ENTRY_GET                           @     8A62h
+  entry IET_REL32_EXPORT "SYS_CTRL_ALT_FLAGS"
+    export SYS_CTRL_ALT_FLAGS                       @     1678h
+  entry IET_REL32_EXPORT "FramePtrDel"
+    export FramePtrDel                              @     983Bh
+  entry IET_REL32_EXPORT "SYS_CODE_BP"
+    export SYS_CODE_BP                              @     1688h
+  entry IET_REL32_EXPORT "ChkOnStk"
+    export ChkOnStk                                 @     F58Eh
+  entry IET_REL32_EXPORT "TaskQueInsChild"
+    export TaskQueInsChild                          @     519Dh
+  entry IET_REL32_EXPORT "FAT32CDirFill"
+    export FAT32CDirFill                            @    22860h
+  entry IET_REL32_EXPORT "BlkPoolAdd"
+    export BlkPoolAdd                               @     57DBh
+  entry IET_REL32_EXPORT "sys_pci_services"
+    export sys_pci_services                         @    17567h
+  entry IET_REL32_EXPORT "char_bmp_zero_cr_nl_cursor"
+    export char_bmp_zero_cr_nl_cursor               @     343Ch
+  entry IET_REL32_EXPORT "SYS_PCI_SERVICES"
+    export SYS_PCI_SERVICES                         @    17567h
+  entry IET_REL32_EXPORT "_STRCMP"
+    export _STRCMP                                  @     3008h
+  entry IET_REL32_EXPORT "Core0Init"
+    export Core0Init                                @    185FAh
+  entry IET_REL32_EXPORT "AStrNew"
+    export AStrNew                                  @     5F51h
+  entry IET_REL32_EXPORT "KbdPktRead"
+    export KbdPktRead                               @    13153h
+  entry IET_REL32_EXPORT "KbdCmdRead"
+    export KbdCmdRead                               @    11E83h
+  entry IET_REL32_EXPORT "DrvLock"
+    export DrvLock                                  @    1D75Ah
+  entry IET_REL32_EXPORT "XTalkWait"
+    export XTalkWait                                @    172F3h
+  entry IET_REL32_EXPORT "MemPageTable"
+    export MemPageTable                             @     5433h
+  entry IET_REL32_EXPORT "MsHardPktRead"
+    export MsHardPktRead                            @    13AE3h
+  entry IET_REL32_EXPORT "_STRCPY"
+    export _STRCPY                                  @     2FE0h
+  entry IET_REL32_EXPORT "RedSeaFreeFreeLst"
+    export RedSeaFreeFreeLst                        @    2014Bh
+  entry IET_REL32_EXPORT "char_bmp_non_eol"
+    export char_bmp_non_eol                         @     35FCh
+  entry IET_REL32_EXPORT "c32_edi"
+    export c32_edi                                  @    17609h
+  entry IET_REL32_EXPORT "_CALL_IND"
+    export _CALL_IND                                @     2D5Bh
+  entry IET_REL_I32 "_FREE"
+    at    15710h
+  entry IET_REL_I32 "SET_GS_BASE"
+    at    1868Ah
+  entry IET_REL_I32 "DocUnlock"
+    at    15F50h
+  entry IET_REL_I32 "U"
+    at    10B42h
+  entry IET_REL_I32 "ExePrint"
+    at    173C9h    16D4Bh    147B7h
+  entry IET_REL_I32 "Ed"
+    at    29096h    29004h    19460h
+  entry IET_REL_I32 "Ui"
+    at    10B15h     FF90h
+  entry IET_REL_I32 "LexStmt2Bin"
+    at    15CE1h
+  entry IET_REL_I32 "ClassMemberLstDel"
+    at     9308h
+  entry IET_REL_I32 "Lex"
+    at    15EE1h
+  entry IET_REL_I32 "DocSave"
+    at     B23Bh
+  entry IET_REL_I32 "CmpCtrlDel"
+    at    15F1Ch
+  entry IET_REL_I32 "CmpCtrlNew"
+    at    15EA6h
+  entry IET_REL_I32 "ExeFile"
+    at    298ADh
