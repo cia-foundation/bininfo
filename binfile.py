@@ -95,6 +95,10 @@ def parse_patch_table(binfile, patch_table_offset):
                 symbol_name = last_symbol
 
             relocations.add(Relocation(etype, symbol_name, value))
+        elif etype == Etype.IET_MAIN:
+            assert symbol_name is None
+
+            exports.add(Export(etype, symbol_name, value))
         else:
             raise Exception(f"Unhandled etype {Etype(etype)}")
 
