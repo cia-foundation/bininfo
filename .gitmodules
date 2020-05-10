@@ -1,0 +1,3 @@
+[submodule "dependencies/makeelf"]
+	path = dependencies/makeelf
+	url = https://github.com/minexew/makeelf.git
