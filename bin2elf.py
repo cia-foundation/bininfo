@@ -241,14 +241,27 @@ def make_import_thunks(f, imports, symbol_suffix):
         plain_name = defn.name
 
         if defn.dynamic_import:
+            resolve_import_func = "ResolveJitImport" + symbol_suffix
+            # For imports of JIT-compiled functions the following HolyC helper function is needed:
+            #   U8* ResolveJitImport(U8* thunk_addr, U8* func_name)
+            # The imported function is resolved and its address returned, so we jump to RAX afterwards.
+            # In addition, the helper may patch the thunk with a direct jump to the resolved function.
+            #
+            # On failure the helper should just abort the program, as there is not much meaningful recovery possible.
             f.write(f"""
 .section    .text.{thunk_name}
-.type       {thunk_name}, %function  
+.type       {thunk_name}, %function
 .global     {thunk_name}
 
 {thunk_name}:
-    /* a simple jump would be sufficient, but this yields a more useful stack trace */
-    call abort
+    push $_s_{plain_name}
+    lea {thunk_name}(%rip), %rax
+    push %rax
+    call {resolve_import_func}
+    jmp *%rax
+
+_s_{plain_name}:
+    .asciz "{plain_name}"
 
     .size {thunk_name}, .-{thunk_name}
 """)
